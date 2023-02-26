@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<!--
+Strata by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+--><html>
+
+<head>
+<title>Amin Mamandipoor | University of Kansas</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/css-main.css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106216947-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-106216947-2');
+</script>
+</head>
+
+<body id="top">
+
+<header id="header">
+<div class="inner">
+<a href="#" class="image avatar"><img src="images/profile.jpg" alt=""></a>
+<h1><strong>Amin Mamandipoor</strong></h1>
+Ph.D. Student<br>
+University of Kansas
+</div>
+</header>
+
+<div id="main">
+<section id="bio">
+<p>
+I am a Ph.D. student in the <a href="https://eecs.ku.edu/" target="_blank">Department of Computer Science and Electrical Engineering</a> at the <a href="https://www.ku.edu/" target="_blank">University of Kansas</a>, and fortunately advised by Prof. <a href="https://alian-eecs.ku.edu/" target="_blank">Mohammad Alian</a>. 
+I work on computer architecture and computer networks. 
+My goal is to provide more computational potential within reliable hardware for specific applications, or even general purposes.
+My current research focuses on in-/near-memory computing especially for datacenters.
+</p>
+
+</section>
+
+<section id="news">
+<h2>News</h2>
+<table>
+
+<tr>
+<td class="news-month">Jan 2023</td>
+<td class="news-title">
+<b>
+I will be working as a research scholar at ACE Center for Evolvable Computing, one of the seven centers in JUMP 2.0, led by the <a href="https://www.src.org/" target="_blank"> Semiconductor Research Corporation</a> and sponsered by DARPA!</b>
+<br>
+</td>
+</tr>
+
+<tr>
+<td class="news-month">Aug 2022</td>
+<td class="news-title">
+<b>
+We got the second place in <a href="https://semiconductor.samsung.com/newsroom/event/open-innovation-contest/" target="_blank"> Open Innovation Contest for AXDIMM Technology</a>!</b>
+<br>
+</td>
+</tr>
+
+<tr>
+<td class="news-month">Jan 2022</td>
+<td class="news-title">
+<b>
+I officially joined the group of Prof. <a href="https://alian-eecs.ku.edu/" target="_blank">Mohammad Alian</a>!</b>
+<br>
+</td>
+</tr>
+</table>
+</section>
+
+
+<section id="publications">
+<h2>
+Publications
+<p class="header-link">
+<!-- [<a href="https://dblp.uni-trier.de/pers/hd/j/Jeffrey:Mark_C=">DBLP</a>] -->
+[<a href="http://people.ku.edu/~a972m888/"> :( Not Yet!</a>]
+</p>
+</h2>
+</section>
+
+</div>
+
+<footer id="footer">
+<div class="inner">
+<ul class="icons">
+Email: <a href="mailto:amin.mamandi@ku.edu">amin.mamandi@ku.edu</a>
+<br>
+Office: <a href="https://www.google.com/maps/place/274+-+Nicholls+Hall/@38.952263,-95.2649957,17z/data=!3m1!4b1!4m5!3m4!1s0x87bf68d351160d31:0x92eee59314ffee8e!8m2!3d38.9522588!4d-95.262807">Nicholls 247N </a> 
+</ul>
+<ul class="icons">
+
+
+
+<li><a href="https://www.linkedin.com/in/aminmamandipoor" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+
+<!--<li><a href="https://github.com/markcjeffrey"
+class="icon fa-github"><span class="label">Github</span></a></li>-->
+</ul>
+<ul class="copyright">
+<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+</ul>
+</div>
+</footer>
+
+<script src="js/js-jquery.min.js"></script>
+<script src="js/js-skel.min.js"></script>
+<script src="js/js-util.js"></script>
+<script src="js/js-main.js"></script>
+
+</body>
+</html>
