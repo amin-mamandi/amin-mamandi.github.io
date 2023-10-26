@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am a Ph.D. student in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU). I am advised by professors [Mohammad Alian](https://alian-eecs.ku.edu/)
+I am a Ph.D. student in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU). I am advised by professor [Mohammad Alian](https://alian-eecs.ku.edu/)
 
 My research revolves around **Computer Architecture** and **Computer Networks** with focus on **near-memory processing (NMP)** architectures.
 
