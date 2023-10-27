@@ -10,13 +10,13 @@ My research revolves around **Computer Architecture** and **Computer Networks** 
 
 # Publications
 
-* Neel Patel, <ins>Amin Mamandipoor</ins>, and Mohammad Alian, **SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols**, HPCA 2024
+* Neel Patel, \textcolor{Blue}{Amin Mamandipoor}, and Mohammad Alian, **SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols**, HPCA 2024
 
-* Shu-Ting Wang, Hanyang Xu, <ins>Amin Mamandipoor</ins>, Rohan Mahapatra, Byung Hoon Ahn, Soroush Ghodrati, Krishnan Kailas, Mohammad Alian, Hadi Esmaeilzadeh, **Data Motion Acceleration for Heterogeneous Cross-Domain Accelerator Chaining**, HPCA 2024
+* Shu-Ting Wang, Hanyang Xu, \textcolor{Blue}{Amin Mamandipoor}, Rohan Mahapatra, Byung Hoon Ahn, Soroush Ghodrati, Krishnan Kailas, Mohammad Alian, Hadi Esmaeilzadeh, **Data Motion Acceleration for Heterogeneous Cross-Domain Accelerator Chaining**, HPCA 2024
 
-* Neel Patel, <ins>Amin Mamandipoor</ins>, Derrick Quinn, and Mohammad Alian, **XFM: Accelerated Software-Defined Far Memory**, MICRO 2023
+* Neel Patel, \textcolor{Blue}{Amin Mamandipoor}, Derrick Quinn, and Mohammad Alian, **XFM: Accelerated Software-Defined Far Memory**, MICRO 2023
 
-* Johnson Umeike, Neel Patel, Alex Manley, <ins>Amin Mamandipoor</ins>, Heechul Yun, Mohammad Alian, **Profiling gem5 Simulator**, ISPASS 2023
+* Johnson Umeike, Neel Patel, Alex Manley, \textcolor{Blue}{Amin Mamandipoor}, Heechul Yun, Mohammad Alian, **Profiling gem5 Simulator**, ISPASS 2023
 
 
 
