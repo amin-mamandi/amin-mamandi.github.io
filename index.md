@@ -2,9 +2,10 @@
 layout: default
 ---
 
-I am a Ph.D. student in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU). I am advised by professor [Mohammad Alian](https://alian-eecs.ku.edu/)
-I received my Bachelor's and Master's degree in Computer Engineering from University of Tabriz. Here is my resume [[pdf](Amin-cv.pdf)].
+I am a Ph.D. student in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU). I am advised by professor [Mohammad Alian](https://alian-eecs.ku.edu/).
 My research revolves around **Computer Architecture** and **Computer Networks** with focus on **Near-Memory Processing (NMP)** architectures.
+
+I received my Bachelor's and Master's degree in Computer Engineering from University of Tabriz. Here is my resume [[pdf](Amin-cv.pdf)].
 
 * * *
 
@@ -41,6 +42,6 @@ My research revolves around **Computer Architecture** and **Computer Networks** 
 
 # About Me!
 
-In my free time, I'm a big fan of science fiction movies. When the weather's good, I enjoy hiking to explore the outdoors.
+In my free time, I'm a big fan of science fiction movies. Also, when the weather's good, I enjoy hiking to explore the outdoors.
 
 
