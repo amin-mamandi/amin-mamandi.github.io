@@ -23,7 +23,7 @@ I received my Bachelor's and Master's degree in Computer Engineering from Univer
 
 # News
 
-* **Oct. 2023** Presented poster at ACE Annual Meeting, Champaign, IL!
+* **Oct. 2023** Presented a poster at ACE Annual Meeting, Champaign, Illinois!
 
 * **Jun. 2023** Attented [ISCA 2023](https://iscaconf.org/isca2023/), Orlando, Florida!
 
@@ -33,15 +33,15 @@ I received my Bachelor's and Master's degree in Computer Engineering from Univer
 
 * **Oct. 2022** Attented [MICRO 2022](https://microarch.org/micro55/index.php), Chicago, Illinois!
 
-* **Aug. 2022** We got the second place in [Open Innovation Contest for AXDIMM](https://semiconductor.samsung.com/newsroom/event/open-innovation-contest/) Technology!
+* **Aug. 2022** Got the second place in [Open Innovation Contest for AXDIMM](https://semiconductor.samsung.com/newsroom/event/open-innovation-contest/) Technology!
 
-* **Jan. 2022** I started my PhD at [KU](https://ku.edu/)!
+* **Jan. 2022** Started my PhD at [KU](https://ku.edu/)!
 
 
 * * *
 
 # About Me!
 
-In my free time, I'm a big fan of science fiction movies. Also, when the weather's good, I enjoy hiking to explore the outdoors.
-
+In my free time, I'm a big fan of science fiction movies (e.g., Harry Potter, Alita: Battle Angel, ...). Also, when the weather's good, I enjoy hiking to explore the outdoors.
+I am also a passionate cook who loves preparing Persian dishes (e.g., Ghorme Sabzi, Fesenjoon, ...).
 
