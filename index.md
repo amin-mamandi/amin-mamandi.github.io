@@ -7,9 +7,11 @@ My research revolves around **Computer Architecture** and **Computer Networks** 
 
 I received my Bachelor's and Master's degree in Computer Engineering from University of Tabriz. Here is my [[cv](Amin-cv.pdf)].
 
+Also, here is the link to our research group @ KU [KU Architecture Group](https://arg.ku.edu/build/html/index.html).
+
 * * *
 
-# Publications - [[Scholar]](https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en) [[DBLP]](https://dblp.org/pid/350/2135.html)
+# Publications  <sup><sub>[[Scholar]](https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en) [[DBLP]](https://dblp.org/pid/350/2135.html)<sub/><sup/>
 
 * Neel Patel, <ins>Amin Mamandipoor</ins>, Mohammad Alian, **SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols**, HPCA 2024
 
