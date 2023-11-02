@@ -11,7 +11,7 @@ Also, here is the link to our research group @ KU [KU Architecture Group](https:
 
 * * *
 
-# Publications  <sup><sub>[[Scholar]](https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en) [[DBLP]](https://dblp.org/pid/350/2135.html)<sub/><sup/>
+# Publications  <sub><sup><sub>[[Scholar]](https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en) [[DBLP]](https://dblp.org/pid/350/2135.html)<sub/><sup/><sub/>
 
 * Neel Patel, <ins>Amin Mamandipoor</ins>, Mohammad Alian, **SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols**, HPCA 2024
 
