@@ -7,7 +7,7 @@ My research revolves around **Computer Architecture** and **Computer Networks** 
 
 I received my Bachelor's and Master's degree in Computer Engineering from University of Tabriz. Here is my [[cv](Amin-cv.pdf)].
 
-Also, here is the link to our research group @ KU [KU Architecture Group](https://arg.ku.edu/build/html/index.html).
+Also, find our group website here => [KU Architecture Group!](https://arg.ku.edu/build/html/index.html).
 
 * * *
 
