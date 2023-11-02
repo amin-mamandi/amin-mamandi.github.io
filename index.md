@@ -9,7 +9,7 @@ I received my Bachelor's and Master's degree in Computer Engineering from Univer
 
 * * *
 
-# Publications
+# Publications [Scholar](https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en) [DBLP](https://dblp.org/pid/350/2135.html)
 
 * Neel Patel, <ins>Amin Mamandipoor</ins>, Mohammad Alian, **SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols**, HPCA 2024
 
@@ -27,6 +27,8 @@ I received my Bachelor's and Master's degree in Computer Engineering from Univer
 
 * **Jun. 2023** Attented [ISCA 2023](https://iscaconf.org/isca2023/), Orlando, Florida!
 
+* **May 2023**  Passed qualifying exam!
+
 * **Apr. 2023** Attented [ISPASS 2023](https://ispass.org/ispass2023/), Raleigh, North Carolina!
 
 * **Feb. 2023** I will be working as a research scholar at [ACE Center for Evolvable Computing](https://acecenter.grainger.illinois.edu/), one of the seven centers in JUMP 2.0, led by the Semiconductor Research Corporation and sponsored by DARPA!
@@ -39,7 +41,9 @@ I received my Bachelor's and Master's degree in Computer Engineering from Univer
 
 
 * * *
+# I
 
+* * *
 # About Me!
 
 In my free time, I'm a big fan of science fiction movies (e.g., Harry Potter, Alita: Battle Angel, ...). Also, when the weather's good, I enjoy hiking to explore the outdoors.
