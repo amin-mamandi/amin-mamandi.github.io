@@ -2,10 +2,10 @@
 layout: default
 ---
 
-I am a Ph.D. student in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU). I am advised by professor [Mohammad Alian](https://alian-eecs.ku.edu/).
-My research revolves around **Computer Architecture** and **Computer Networks** with focus on **Near-Memory Processing (NMP)** architectures.
+I am a Ph.D. student in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU). I am advised by Professor [Mohammad Alian](https://alian-eecs.ku.edu/).
+My research revolves around **Computer Architecture** and **Computer Networks** with a focus on **Near-Memory Processing (NMP)** architectures.
 
-I received my Bachelor's and Master's degree in Computer Engineering from University of Tabriz. Here is my [[cv](Amin-cv.pdf)].
+I received my Bachelor's and Master's degrees in Computer Engineering from the University of Tabriz. Here is my [[cv](Amin-cv.pdf)].
 
 Also, find our group website here => [KU Architecture Group!](https://arg.ku.edu/build/html/index.html).
 
@@ -24,6 +24,8 @@ Also, find our group website here => [KU Architecture Group!](https://arg.ku.edu
 
 
 # News
+
+* **Dec. 2023** Accepted the GTA offer for the Spring 2024 semester (EECS 645 - Computer Architecture)!
 
 * **Oct. 2023** Presented a poster at ACE Annual Meeting, Champaign, Illinois!
 
