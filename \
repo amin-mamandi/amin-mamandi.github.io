@@ -2,16 +2,14 @@
 layout: default
 ---
 
-I am a Ph.D. student in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU). I am advised by Professor [Mohammad Alian](https://alian-eecs.ku.edu/).
-My research revolves around **Computer Architecture** and **Computer Networks** with a focus on **Near-Memory Processing (NMP)** architectures.
+I am a Ph.D. student in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU). I am advised by professor [Mohammad Alian](https://alian-eecs.ku.edu/).
+My research revolves around **Computer Architecture** and **Computer Networks** with focus on **Near-Memory Processing (NMP)** architectures.
 
-I received my Bachelor's and Master's degrees in Computer Engineering from the University of Tabriz. Here is my [[cv](Amin-cv.pdf)].
-
-Also, find our group website here => [KU Architecture Group!](https://arg.ku.edu/build/html/index.html).
+I received my Bachelor's and Master's degree in Computer Engineering from University of Tabriz. Here is my [[cv](Amin-cv.pdf)].
 
 * * *
 
-# Publications  <sub><sup><sub>[[Scholar]](https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en) [[DBLP]](https://dblp.org/pid/350/2135.html)<sub/><sup/><sub/>
+# Publications - [[Scholar]](https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en) [[DBLP]](https://dblp.org/pid/350/2135.html)
 
 * Neel Patel, <ins>Amin Mamandipoor</ins>, Mohammad Alian, **SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols**, HPCA 2024
 
@@ -24,8 +22,6 @@ Also, find our group website here => [KU Architecture Group!](https://arg.ku.edu
 
 
 # News
-
-* **Dec. 2023** Accepted the GTA offer for the Spring 2024 semester (EECS 645 - Computer Architecture)!
 
 * **Oct. 2023** Presented a poster at ACE Annual Meeting, Champaign, Illinois!
 
