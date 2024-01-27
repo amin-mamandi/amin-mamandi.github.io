@@ -25,6 +25,8 @@ Also, find our group website here => [KU Architecture Group!](https://arg.ku.edu
 
 # News
 
+* **Jan. 2024** First Place in I2S Student Research Symposium at University of Kansas!
+
 * **Dec. 2023** Accepted the GTA offer for the Spring 2024 semester (EECS 645 - Computer Architecture)!
 
 * **Oct. 2023** Presented a poster at ACE Annual Meeting, Champaign, Illinois!
