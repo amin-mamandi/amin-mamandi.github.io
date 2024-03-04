@@ -37,9 +37,13 @@ Also, find our group website here => [KU Architecture Group!](https://arg.ku.edu
 
 * **Apr. 2023** Attented [ISPASS 2023](https://ispass.org/ispass2023/), Raleigh, North Carolina!
 
+* **Apr. 2023** [ISPASS 2023](https://ispass.org/ispass2023/) travel grant awarded!
+
 * **Feb. 2023** I will be working as a research scholar at [ACE Center for Evolvable Computing](https://acecenter.grainger.illinois.edu/), one of the seven centers in JUMP 2.0, led by the Semiconductor Research Corporation and sponsored by DARPA!
 
 * **Oct. 2022** Attented [MICRO 2022](https://microarch.org/micro55/index.php), Chicago, Illinois!
+
+* **Oct. 2022** [MICRO 2022](https://microarch.org/micro55/index.php) travel grant awarded!
 
 * **Aug. 2022** Got the second place in [Open Innovation Contest for AXDIMM](https://semiconductor.samsung.com/newsroom/event/open-innovation-contest/) Technology!
 
