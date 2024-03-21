@@ -13,7 +13,7 @@ Also, find our group website here => [KU Architecture Group!](https://arg.ku.edu
 
 # Publications  <sub><sup><sub>[[Scholar]](https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en) [[DBLP]](https://dblp.org/pid/350/2135.html)<sub/><sup/><sub/>
 
-* Neel Patel, <ins>Amin Mamandipoor</ins>, Mohammad Alian, **SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols**, HPCA 2024
+* Neel Patel, <ins>Amin Mamandipoor</ins>, Mohammad Nouri, Mohammad Alian, **SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols**, HPCA 2024
 
 * Shu-Ting Wang, Hanyang Xu, <ins>Amin Mamandipoor</ins>, Rohan Mahapatra, Byung Hoon Ahn, Soroush Ghodrati, Krishnan Kailas, Mohammad Alian, Hadi Esmaeilzadeh, **Data Motion Acceleration for Heterogeneous Cross-Domain Accelerator Chaining**, HPCA 2024
 
