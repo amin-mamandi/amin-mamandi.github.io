@@ -25,6 +25,8 @@ Also, find our group website here => [KU Architecture Group!](https://arg.ku.edu
 
 # News
 
+* **Apr. 2024** [gem5 bootcamp 2024!](https://www.gem5.org/events/bootcamp-2024) travel grant awarded!
+
 * **Jan. 2024** First Place in  [I2S Student Research Symposium](https://i2s-research.ku.edu/isrs) at University of Kansas!   
 
 * **Dec. 2023** Accepted the GTA offer for the Spring 2024 semester ([EECS 645 - Computer Architecture](https://alian-eecs.ku.edu/courses/eecs645/))! 
