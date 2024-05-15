@@ -25,7 +25,7 @@ Also, find our group website here => [KU Architecture Group!](https://arg.ku.edu
 
 # News
 
-* **May. 2024** [ACE Spring Meeting 2024](https://calendars.illinois.edu/detail/7507?eventId=33484844) presented our latest project at the ACE Spring Meeting in Chicago, Illinois!
+* **May. 2024**  Presented our latest project at the [ACE Spring Meeting](https://calendars.illinois.edu/detail/7507?eventId=33484844), Chicago, Illinois!
 
 * **Apr. 2024** [gem5 bootcamp 2024](https://www.gem5.org/events/bootcamp-2024) travel grant awarded!
 
