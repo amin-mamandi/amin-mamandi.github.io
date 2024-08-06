@@ -25,6 +25,8 @@ Also, find our group website here => [KU Architecture Group!](https://arg.ku.edu
 
 # News
 
+* **June. 2024**  IndySCC Selected Participant, SC24 Student Cluster Competition [IndySCC]([https://calendars.illinois.edu/detail/7507?eventId=33484844](https://sc24.supercomputing.org/students/indyscc/))!
+
 * **May. 2024**  Presented our latest project at the [ACE Spring Meeting](https://calendars.illinois.edu/detail/7507?eventId=33484844), Chicago, Illinois!
 
 * **Apr. 2024** [gem5 bootcamp 2024](https://www.gem5.org/events/bootcamp-2024) travel grant awarded!
