@@ -25,7 +25,7 @@ Also, find our group website here => [Architecture Research Group!](https://arg.
 
 # News
 
-* **June. 2024**  IndySCC Selected Participant, SC24 Student Cluster Competition [IndySCC]([https://calendars.illinois.edu/detail/7507?eventId=33484844](https://sc24.supercomputing.org/students/indyscc/))!
+* **June. 2024**  IndySCC Selected Participant, SC24 Student Cluster Competition [IndySCC](https://sc24.supercomputing.org/students/indyscc/)!
 
 * **May. 2024**  Presented our latest project at the [ACE Spring Meeting](https://calendars.illinois.edu/detail/7507?eventId=33484844), Chicago, Illinois!
 
