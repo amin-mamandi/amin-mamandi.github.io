@@ -2,12 +2,14 @@
 layout: default
 ---
 
-I am a Ph.D. student in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU). I am advised by Professor [Mohammad Alian]([https://alian.csl.cornell.edu/]).
-My research revolves around **Computer Architecture** and **Computer Networks** with a focus on **Near-Memory Processing (NMP) and Domain-Specific Architectures (DSA)**.
+I am a Ph.D. candidate in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU). I have the privilege of being advised by Professor [Mohammad Alian](https://alian.csl.cornell.edu/).
 
-I received my Bachelor's and Master's degrees in Computer Engineering from the University of Tabriz. Here is my [[cv](Amin-cv.pdf)].
+My research focuses on **Computer Architecture** and **Computer Networks**, with a particular emphasis on **Near-Memory Processing (NMP)** and **Domain-Specific Architectures (DSA)**.
 
-Also, find our group website here => [Architecture Research Group!](https://arg.csl.cornell.edu/).
+Prior to my doctoral studies, I earned both my Bachelor's and Master's degrees in Computer Engineering from the University of Tabriz.
+
+For more details about my academic and professional background, please refer to my [CV](Amin-cv.pdf).
+
 
 * * *
 
