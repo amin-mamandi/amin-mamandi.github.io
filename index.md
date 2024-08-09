@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am a Ph.D. candidate in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU). I have the privilege of being advised by Professor [Mohammad Alian](https://alian.csl.cornell.edu/).
+I am a Ph.D. candidate in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU).
 
 My research focuses on **Computer Architecture** and **Computer Networks**, with a particular emphasis on **Near-Memory Processing (NMP)** and **Domain-Specific Architectures (DSA)**.
 
@@ -60,6 +60,6 @@ For more details about my academic and professional background, please refer to 
 * * *
 # About Me!
 
-In my free time, I'm a big fan of science fiction movies (e.g., Harry Potter, Alita: Battle Angel, ...). Also, when the weather's good, I enjoy hiking to explore the outdoors.
+In my free time, I'm a big fan of science fiction movies (e.g., Harry Potter, Alita: Battle Angel, ...). Also, when the weather's good, I enjoy hiking and exploring the outdoors.
 I am also a passionate cook who loves preparing Persian dishes (e.g., Ghorme Sabzi, Fesenjoon, ...).
 
