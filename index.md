@@ -29,33 +29,15 @@ For more details about my academic and professional background, please refer to 
 # News
 
 <style>
-#news-list {
-  list-style-type: none;
-  padding-left: 0;
-}
-#news-list li {
-  margin-bottom: 10px;
-}
-#expand-news {
-  display: none;
-}
 #news-list li:nth-child(n+6) {
   display: none;
 }
-#expand-news:checked ~ #news-list li:nth-child(n+6) {
-  display: list-item;
-}
-#expand-news:checked ~ label[for="expand-news"] {
-  display: none;
-}
-label[for="expand-news"] {
+#show-more {
   cursor: pointer;
   color: blue;
   text-decoration: underline;
 }
 </style>
-
-<input type="checkbox" id="expand-news">
 
 <ul id="news-list">
   <li><strong>June. 2024</strong> IndySCC Selected Participant, SC24 Student Cluster Competition <a href="https://sc24.supercomputing.org/students/indyscc/">IndySCC</a>!</li>
@@ -75,7 +57,18 @@ label[for="expand-news"] {
   <li><strong>Jan. 2022</strong> Started my PhD at <a href="https://ku.edu/">KU</a>!</li>
 </ul>
 
-<label for="expand-news">Show More</label>
+<p id="show-more">Show More</p>
+
+<script>
+document.getElementById('show-more').onclick = function() {
+  var items = document.querySelectorAll('#news-list li');
+  for (var i = 5; i < items.length; i++) {
+    items[i].style.display = 'list-item';
+  }
+  this.style.display = 'none';
+};
+</script>
+
 
 * * *
 
