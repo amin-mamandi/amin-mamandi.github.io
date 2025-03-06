@@ -90,8 +90,6 @@ layout: default
 
   <p>I am a Ph.D. candidate in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU).</p>
 
-  <p>My research focuses on <strong>Computer Architecture</strong> and <strong>Computer Networks</strong>, with a particular emphasis on <strong>Near-Memory Processing (NMP)</strong> and <strong>Domain-Specific Architectures (DSA)</strong>.</p>
-
   <p>Prior to my doctoral studies, I earned both my Bachelor's and Master's degrees in Computer Engineering from the University of Tabriz.</p>
 
   <p>For more details about my academic and professional background, please refer to my <a href="Amin-cv.pdf">CV</a>.</p>
