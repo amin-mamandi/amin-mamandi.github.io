@@ -16,13 +16,15 @@ For more details about my academic and professional background, please refer to 
 
 # Publications  <sub><sup><sub>[[Scholar]](https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en) [[DBLP]](https://dblp.org/pid/350/2135.html)<sub/><sup/><sub/>
 
-* Neel Patel, <ins>Amin Mamandipoor</ins>, Mohammad Nouri, Mohammad Alian, **SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols**, HPCA 2024
+* <ins>Amin Mamandipoor</ins>, Huy Tran, and Mohammad Alian, **SDT: Cutting Datacenter Tax Through Simultaneous Data-Delivery Threads**, CAL 2025 [[paper]](https://kansas-my.sharepoint.com/:b:/g/personal/a972m888_home_ku_edu/EcwRJPqPDqBCgqyrYGtIGiQBjapzeqVoSYxJBXeUotjZAg?e=FAKgxW)
 
-* Shu-Ting Wang, Hanyang Xu, <ins>Amin Mamandipoor</ins>, Rohan Mahapatra, Byung Hoon Ahn, Soroush Ghodrati, Krishnan Kailas, Mohammad Alian, Hadi Esmaeilzadeh, **Data Motion Acceleration for Heterogeneous Cross-Domain Accelerator Chaining**, HPCA 2024
+* Neel Patel, <ins>Amin Mamandipoor</ins>, Mohammad Nouri, Mohammad Alian, **SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols**, HPCA 2024 [[paper]](https://ieeexplore.ieee.org/abstract/document/10476416)
 
-* Neel Patel, <ins>Amin Mamandipoor</ins>, Derrick Quinn, Mohammad Alian, **XFM: Accelerated Software-Defined Far Memory**, MICRO 2023
+* Shu-Ting Wang, Hanyang Xu, <ins>Amin Mamandipoor</ins>, Rohan Mahapatra, Byung Hoon Ahn, Soroush Ghodrati, Krishnan Kailas, Mohammad Alian, Hadi Esmaeilzadeh, **Data Motion Acceleration for Heterogeneous Cross-Domain Accelerator Chaining**, HPCA 2024 [[paper]](https://ieeexplore.ieee.org/abstract/document/10476422)
 
-* Johnson Umeike, Neel Patel, Alex Manley, <ins>Amin Mamandipoor</ins>, Heechul Yun, Mohammad Alian, **Profiling gem5 Simulator**, ISPASS 2023
+* Neel Patel, <ins>Amin Mamandipoor</ins>, Derrick Quinn, Mohammad Alian, **XFM: Accelerated Software-Defined Far Memory**, MICRO 2023 [[paper]](https://dl.acm.org/doi/abs/10.1145/3613424.3623776)
+
+* Johnson Umeike, Neel Patel, Alex Manley, <ins>Amin Mamandipoor</ins>, Heechul Yun, Mohammad Alian, **Profiling gem5 Simulator**, ISPASS 2023 [[paper]](https://ieeexplore.ieee.org/abstract/document/10158201)
 
 * * *
 
@@ -34,7 +36,7 @@ For more details about my academic and professional background, please refer to 
 }
 #show-more {
   cursor: pointer;
-  color: blue;
+  color: inherit;
   text-decoration: underline;
 }
 </style>
