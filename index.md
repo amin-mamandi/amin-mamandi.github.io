@@ -2,35 +2,54 @@
 layout: default
 ---
 
-# Amin MamandiPoor
-
-I am a Ph.D. candidate in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU).
-
-My research focuses on **Computer Architecture** and **Computer Networks**, with a particular emphasis on **Near-Memory Processing (NMP)** and **Domain-Specific Architectures (DSA)**.
-
-Prior to my doctoral studies, I earned both my Bachelor's and Master's degrees in Computer Engineering from the University of Tabriz.
-
-For more details about my academic and professional background, please refer to my [CV](Amin-cv.pdf).
-
-* * *
-
-# Publications  <sub><sup><sub>[[Scholar]](https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en) [[DBLP]](https://dblp.org/pid/350/2135.html)<sub/><sup/><sub/>
-
-* <ins>Amin Mamandipoor</ins>, Huy Tran, and Mohammad Alian, **SDT: Cutting Datacenter Tax Through Simultaneous Data-Delivery Threads**, CAL 2025 [[paper]](https://kansas-my.sharepoint.com/:b:/g/personal/a972m888_home_ku_edu/EcwRJPqPDqBCgqyrYGtIGiQBjapzeqVoSYxJBXeUotjZAg?e=FAKgxW)
-
-* Neel Patel, <ins>Amin Mamandipoor</ins>, Mohammad Nouri, Mohammad Alian, **SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols**, HPCA 2024 [[paper]](https://ieeexplore.ieee.org/abstract/document/10476416)
-
-* Shu-Ting Wang, Hanyang Xu, <ins>Amin Mamandipoor</ins>, Rohan Mahapatra, Byung Hoon Ahn, Soroush Ghodrati, Krishnan Kailas, Mohammad Alian, Hadi Esmaeilzadeh, **Data Motion Acceleration for Heterogeneous Cross-Domain Accelerator Chaining**, HPCA 2024 [[paper]](https://ieeexplore.ieee.org/abstract/document/10476422)
-
-* Neel Patel, <ins>Amin Mamandipoor</ins>, Derrick Quinn, Mohammad Alian, **XFM: Accelerated Software-Defined Far Memory**, MICRO 2023 [[paper]](https://dl.acm.org/doi/abs/10.1145/3613424.3623776)
-
-* Johnson Umeike, Neel Patel, Alex Manley, <ins>Amin Mamandipoor</ins>, Heechul Yun, Mohammad Alian, **Profiling gem5 Simulator**, ISPASS 2023 [[paper]](https://ieeexplore.ieee.org/abstract/document/10158201)
-
-* * *
-
-# News
-
 <style>
+/* Navigation Tabs Styling */
+.nav-tabs {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-tabs li {
+  float: left;
+}
+
+.nav-tabs li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-tabs li a:hover {
+  background-color: #ddd;
+}
+
+.nav-tabs li a.active {
+  background-color: #fff;
+  border-bottom: 3px solid #4285f4;
+  font-weight: bold;
+}
+
+/* Tab Content Styling */
+.tab-content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Show More Button */
 #news-list li:nth-child(n+6) {
   display: none;
 }
@@ -41,27 +60,114 @@ For more details about my academic and professional background, please refer to 
 }
 </style>
 
-<ul id="news-list">
-  <li><strong>June. 2024</strong> IndySCC Selected Participant, SC24 Student Cluster Competition <a href="https://sc24.supercomputing.org/students/indyscc/">IndySCC</a>!</li>
-  <li><strong>May. 2024</strong> Presented our latest project at the <a href="https://calendars.illinois.edu/detail/7507?eventId=33484844">ACE Spring Meeting</a>, Chicago, Illinois!</li>
-  <li><strong>Apr. 2024</strong> <a href="https://www.gem5.org/events/bootcamp-2024">gem5 bootcamp 2024</a> travel grant awarded!</li>
-  <li><strong>Jan. 2024</strong> First Place in <a href="https://i2s-research.ku.edu/isrs">I2S Student Research Symposium</a> at University of Kansas!</li>
-  <li><strong>Dec. 2023</strong> Accepted the GTA offer for the Spring 2024 semester (<a href="https://alian-eecs.ku.edu/courses/eecs645/">EECS 645 - Computer Architecture</a>)!</li>
-  <li><strong>Oct. 2023</strong> Presented a poster at ACE Annual Meeting, Champaign, Illinois!</li>
-  <li><strong>Jun. 2023</strong> Attended <a href="https://iscaconf.org/isca2023/">ISCA 2023</a>, Orlando, Florida!</li>
-  <li><strong>May 2023</strong> Passed qualifying exam!</li>
-  <li><strong>Apr. 2023</strong> Attended <a href="https://ispass.org/ispass2023/">ISPASS 2023</a>, Raleigh, North Carolina!</li>
-  <li><strong>Apr. 2023</strong> <a href="https://ispass.org/ispass2023/">ISPASS 2023</a> student travel grant awarded!</li>
-  <li><strong>Feb. 2023</strong> I will be working as a research scholar at <a href="https://acecenter.grainger.illinois.edu/">ACE Center for Evolvable Computing</a>, one of the seven centers in JUMP 2.0, led by the Semiconductor Research Corporation and sponsored by DARPA!</li>
-  <li><strong>Oct. 2022</strong> Attended <a href="https://microarch.org/micro55/index.php">MICRO 2022</a>, Chicago, Illinois!</li>
-  <li><strong>Oct. 2022</strong> <a href="https://microarch.org/micro55/index.php">MICRO 2022</a> student travel grant awarded!</li>
-  <li><strong>Aug. 2022</strong> Got the second place in <a href="https://semiconductor.samsung.com/newsroom/event/open-innovation-contest/">Open Innovation Contest for AXDIMM</a> Technology!</li>
-  <li><strong>Jan. 2022</strong> Started my PhD at <a href="https://ku.edu/">KU</a>!</li>
+<ul class="nav-tabs">
+  <li><a href="#home" class="tab-link active" onclick="openTab(event, 'home')">Home</a></li>
+  <li><a href="#publications" class="tab-link" onclick="openTab(event, 'publications')">Publications</a></li>
+  <li><a href="#blog" class="tab-link" onclick="openTab(event, 'blog')">Blog</a></li>
+  <li><a href="#photos" class="tab-link" onclick="openTab(event, 'photos')">Photos</a></li>
+  <li><a href="#about" class="tab-link" onclick="openTab(event, 'about')">About</a></li>
 </ul>
 
-<p id="show-more">Show More</p>
+<div id="home" class="tab-content active">
+  <h1>Amin MamandiPoor</h1>
+
+  <p>I am a Ph.D. candidate in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU).</p>
+
+  <p>My research focuses on <strong>Computer Architecture</strong> and <strong>Computer Networks</strong>, with a particular emphasis on <strong>Near-Memory Processing (NMP)</strong> and <strong>Domain-Specific Architectures (DSA)</strong>.</p>
+
+  <p>Prior to my doctoral studies, I earned both my Bachelor's and Master's degrees in Computer Engineering from the University of Tabriz.</p>
+
+  <p>For more details about my academic and professional background, please refer to my <a href="Amin-cv.pdf">CV</a>.</p>
+
+  <h1>News</h1>
+
+  <ul id="news-list">
+    <li><strong>June. 2024</strong> IndySCC Selected Participant, SC24 Student Cluster Competition <a href="https://sc24.supercomputing.org/students/indyscc/">IndySCC</a>!</li>
+    <li><strong>May. 2024</strong> Presented our latest project at the <a href="https://calendars.illinois.edu/detail/7507?eventId=33484844">ACE Spring Meeting</a>, Chicago, Illinois!</li>
+    <li><strong>Apr. 2024</strong> <a href="https://www.gem5.org/events/bootcamp-2024">gem5 bootcamp 2024</a> travel grant awarded!</li>
+    <li><strong>Jan. 2024</strong> First Place in <a href="https://i2s-research.ku.edu/isrs">I2S Student Research Symposium</a> at University of Kansas!</li>
+    <li><strong>Dec. 2023</strong> Accepted the GTA offer for the Spring 2024 semester (<a href="https://alian-eecs.ku.edu/courses/eecs645/">EECS 645 - Computer Architecture</a>)!</li>
+    <li><strong>Oct. 2023</strong> Presented a poster at ACE Annual Meeting, Champaign, Illinois!</li>
+    <li><strong>Jun. 2023</strong> Attended <a href="https://iscaconf.org/isca2023/">ISCA 2023</a>, Orlando, Florida!</li>
+    <li><strong>May 2023</strong> Passed qualifying exam!</li>
+    <li><strong>Apr. 2023</strong> Attended <a href="https://ispass.org/ispass2023/">ISPASS 2023</a>, Raleigh, North Carolina!</li>
+    <li><strong>Apr. 2023</strong> <a href="https://ispass.org/ispass2023/">ISPASS 2023</a> student travel grant awarded!</li>
+    <li><strong>Feb. 2023</strong> I will be working as a research scholar at <a href="https://acecenter.grainger.illinois.edu/">ACE Center for Evolvable Computing</a>, one of the seven centers in JUMP 2.0, led by the Semiconductor Research Corporation and sponsored by DARPA!</li>
+    <li><strong>Oct. 2022</strong> Attended <a href="https://microarch.org/micro55/index.php">MICRO 2022</a>, Chicago, Illinois!</li>
+    <li><strong>Oct. 2022</strong> <a href="https://microarch.org/micro55/index.php">MICRO 2022</a> student travel grant awarded!</li>
+    <li><strong>Aug. 2022</strong> Got the second place in <a href="https://semiconductor.samsung.com/newsroom/event/open-innovation-contest/">Open Innovation Contest for AXDIMM</a> Technology!</li>
+    <li><strong>Jan. 2022</strong> Started my PhD at <a href="https://ku.edu/">KU</a>!</li>
+  </ul>
+
+  <p id="show-more">Show More</p>
+</div>
+
+<div id="publications" class="tab-content">
+  <h1>Publications <sub><sup><sub>[[Scholar]](https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en) [[DBLP]](https://dblp.org/pid/350/2135.html)<sub/><sup/><sub/></h1>
+
+  <ul>
+    <li><ins>Amin Mamandipoor</ins>, Huy Tran, and Mohammad Alian, <strong>SDT: Cutting Datacenter Tax Through Simultaneous Data-Delivery Threads</strong>, CAL 2025 <a href="https://kansas-my.sharepoint.com/:b:/g/personal/a972m888_home_ku_edu/EcwRJPqPDqBCgqyrYGtIGiQBjapzeqVoSYxJBXeUotjZAg?e=FAKgxW">[paper]</a></li>
+    
+    <li>Neel Patel, <ins>Amin Mamandipoor</ins>, Mohammad Nouri, Mohammad Alian, <strong>SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols</strong>, HPCA 2024 <a href="https://ieeexplore.ieee.org/abstract/document/10476416">[paper]</a></li>
+    
+    <li>Shu-Ting Wang, Hanyang Xu, <ins>Amin Mamandipoor</ins>, Rohan Mahapatra, Byung Hoon Ahn, Soroush Ghodrati, Krishnan Kailas, Mohammad Alian, Hadi Esmaeilzadeh, <strong>Data Motion Acceleration for Heterogeneous Cross-Domain Accelerator Chaining</strong>, HPCA 2024 <a href="https://ieeexplore.ieee.org/abstract/document/10476422">[paper]</a></li>
+    
+    <li>Neel Patel, <ins>Amin Mamandipoor</ins>, Derrick Quinn, Mohammad Alian, <strong>XFM: Accelerated Software-Defined Far Memory</strong>, MICRO 2023 <a href="https://dl.acm.org/doi/abs/10.1145/3613424.3623776">[paper]</a></li>
+    
+    <li>Johnson Umeike, Neel Patel, Alex Manley, <ins>Amin Mamandipoor</ins>, Heechul Yun, Mohammad Alian, <strong>Profiling gem5 Simulator</strong>, ISPASS 2023 <a href="https://ieeexplore.ieee.org/abstract/document/10158201">[paper]</a></li>
+  </ul>
+</div>
+
+<div id="blog" class="tab-content">
+  <h1>Blog Posts</h1>
+  
+  <p>Coming soon! I'll be sharing thoughts on computer architecture research, PhD life, and technical tutorials.</p>
+  
+  <!-- Blog post entries will go here -->
+  <div class="blog-placeholder">
+    <h2>Stay tuned for upcoming posts</h2>
+    <p>Topics will include:</p>
+    <ul>
+      <li>Near-Memory Processing (NMP) Fundamentals</li>
+      <li>Domain-Specific Architecture Design Principles</li>
+      <li>My Research Journey</li>
+      <li>Technical Tutorials and Code Samples</li>
+    </ul>
+  </div>
+</div>
+
+<div id="photos" class="tab-content">
+  <h1>Photo Gallery</h1>
+  
+  <p>Coming soon! This section will feature photos from research conferences, lab activities, and more.</p>
+  
+  <!-- Photo gallery will go here -->
+  <div class="photos-placeholder">
+    <h2>Photo categories to look forward to:</h2>
+    <ul>
+      <li>Conference Presentations</li>
+      <li>Research Lab Activities</li>
+      <li>University of Kansas Campus</li>
+      <li>Hiking Adventures</li>
+    </ul>
+  </div>
+</div>
+
+<div id="about" class="tab-content">
+  <h1>About Me!</h1>
+
+  <p>In my free time, I'm a big fan of science fiction movies (e.g., Harry Potter, Alita: Battle Angel, ...). Also, when the weather's good, I enjoy hiking and exploring the outdoors.</p>
+  
+  <p>I am also a passionate cook who loves preparing Persian dishes (e.g., Ghorme Sabzi, Fesenjoon, ...).</p>
+  
+  <h2>Contact Information</h2>
+  <p>Email: [Your Email Address]</p>
+  <p>LinkedIn: [Your LinkedIn Profile]</p>
+  <p>GitHub: [Your GitHub Profile]</p>
+</div>
 
 <script>
+// Function to show/hide news items
 document.getElementById('show-more').onclick = function() {
   var items = document.querySelectorAll('#news-list li');
   for (var i = 5; i < items.length; i++) {
@@ -69,12 +175,29 @@ document.getElementById('show-more').onclick = function() {
   }
   this.style.display = 'none';
 };
+
+// Function to handle tab navigation
+function openTab(evt, tabName) {
+  // Hide all tab content
+  var tabcontent = document.getElementsByClassName("tab-content");
+  for (var i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].classList.remove("active");
+  }
+  
+  // Remove "active" class from all tab links
+  var tablinks = document.getElementsByClassName("tab-link");
+  for (var i = 0; i < tablinks.length; i++) {
+    tablinks[i].classList.remove("active");
+  }
+  
+  // Show the current tab and add "active" class to the button that opened the tab
+  document.getElementById(tabName).classList.add("active");
+  evt.currentTarget.classList.add("active");
+}
+
+// Set the default tab (Home) as active when the page loads
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('home').classList.add('active');
+  document.querySelector('.tab-link').classList.add('active');
+});
 </script>
-
-
-* * *
-
-# About Me!
-
-In my free time, I'm a big fan of science fiction movies (e.g., Harry Potter, Alita: Battle Angel, ...). Also, when the weather's good, I enjoy hiking and exploring the outdoors.
-I am also a passionate cook who loves preparing Persian dishes (e.g., Ghorme Sabzi, Fesenjoon, ...).
