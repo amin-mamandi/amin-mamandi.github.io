@@ -182,7 +182,6 @@ layout: default
   <p>I am also a passionate cook who loves preparing Persian dishes (e.g., Ghorme Sabzi, Fesenjoon, ...).</p>
   
   <h2>Contact Information</h2>
-  <p>Email: <a href="mailto:aminm at ku dot edu">aminm@ku.edu</a></p>
   <p>LinkedIn: <a href="https://www.linkedin.com/in/mamandi/" target="_blank">linkedin.com/in/mamandi</a></p>
   <p>GitHub: <a href="https://github.com/amin-mamandi" target="_blank">github.com/amin-mamandi</a></p>
 </div>
