@@ -86,7 +86,7 @@ layout: default
 </ul>
 
 <div id="home" class="tab-content active">
-  <h1>Amin MamandiPoor</h1>
+<!--   <h1>Amin MamandiPoor</h1> -->
 
   <p>I am a Ph.D. candidate in the Department of Electrical Engineering and Computer Science (EECS) at the University of Kansas (KU).</p>
 
@@ -120,7 +120,7 @@ layout: default
 </div>
 
 <div id="publications" class="tab-content">
-  <h1>Publications <a href="https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en">[Scholar]</a> <a href="https://dblp.org/pid/350/2135.html">[DBLP]</a></h1>
+  <h1><a href="https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en">[Scholar]</a> <a href="https://dblp.org/pid/350/2135.html">[DBLP]</a></h1>
 
   <ul class="publications-list">
     <li><strong>Amin Mamandipoor</strong>, Huy Tran, and Mohammad Alian, "<strong>SDT: Cutting Datacenter Tax Through Simultaneous Data-Delivery Threads</strong>", CAL 2025 <a href="https://kansas-my.sharepoint.com/:b:/g/personal/a972m888_home_ku_edu/EcwRJPqPDqBCgqyrYGtIGiQBjapzeqVoSYxJBXeUotjZAg?e=FAKgxW">[paper]</a></li>
@@ -142,20 +142,20 @@ layout: default
   
   <div class="blog-placeholder">
     <h2>Stay tuned for upcoming posts</h2>
-    <p>Topics will include:</p>
-    <ul>
-      <li>Near-Memory Processing (NMP) Fundamentals</li>
-      <li>Domain-Specific Architecture Design Principles</li>
-      <li>My Research Journey</li>
-      <li>Technical Tutorials and Code Samples</li>
-    </ul>
+<!--     <p>Topics will include:</p> -->
+<!--     <ul> -->
+<!--       <li>Near-Memory Processing (NMP) Fundamentals</li> -->
+<!--       <li>Domain-Specific Architecture Design Principles</li> -->
+<!--       <li>My Research Journey</li> -->
+<!--       <li>Technical Tutorials and Code Samples</li> -->
+<!--     </ul> -->
   </div>
 </div>
 
 <div id="photos" class="tab-content">
   <h1>Photo Gallery</h1>
   
-  <p>Coming soon! This section will feature photos from research conferences, lab activities, and more.</p>
+  <p>Coming soon!</p>
   
   <div class="photos-placeholder">
     <h2>Photo categories to look forward to:</h2>
@@ -176,9 +176,9 @@ layout: default
   <p>I am also a passionate cook who loves preparing Persian dishes (e.g., Ghorme Sabzi, Fesenjoon, ...).</p>
   
   <h2>Contact Information</h2>
-  <p>Email: [Your Email Address]</p>
-  <p>LinkedIn: [Your LinkedIn Profile]</p>
-  <p>GitHub: [Your GitHub Profile]</p>
+  <p>Email: <a href="mailto:main@ku.edu">main@ku.edu</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/mamandi/" target="_blank">linkedin.com/in/mamandi</a></p>
+  <p>GitHub: <a href="https://github.com/amin-mamandi" target="_blank">github.com/amin-mamandi</a></p>
 </div>
 
 <script>
