@@ -41,12 +41,29 @@ layout: default
 .tab-content {
   display: none;
   padding: 20px;
-  border: 1px solid #ddd;
-  border-top: none;
+  background-color: #fff;
 }
 
 .tab-content.active {
   display: block;
+}
+
+/* Publications formatting */
+.publications-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.publications-list li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.publications-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
 }
 
 /* Show More Button */
@@ -103,18 +120,18 @@ layout: default
 </div>
 
 <div id="publications" class="tab-content">
-  <h1>Publications <sub><sup><sub>[[Scholar]](https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en) [[DBLP]](https://dblp.org/pid/350/2135.html)<sub/><sup/><sub/></h1>
+  <h1>Publications <a href="https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en">[Scholar]</a> <a href="https://dblp.org/pid/350/2135.html">[DBLP]</a></h1>
 
-  <ul>
-    <li><ins>Amin Mamandipoor</ins>, Huy Tran, and Mohammad Alian, <strong>SDT: Cutting Datacenter Tax Through Simultaneous Data-Delivery Threads</strong>, CAL 2025 <a href="https://kansas-my.sharepoint.com/:b:/g/personal/a972m888_home_ku_edu/EcwRJPqPDqBCgqyrYGtIGiQBjapzeqVoSYxJBXeUotjZAg?e=FAKgxW">[paper]</a></li>
+  <ul class="publications-list">
+    <li><strong>Amin Mamandipoor</strong>, Huy Tran, and Mohammad Alian, "<strong>SDT: Cutting Datacenter Tax Through Simultaneous Data-Delivery Threads</strong>", CAL 2025 <a href="https://kansas-my.sharepoint.com/:b:/g/personal/a972m888_home_ku_edu/EcwRJPqPDqBCgqyrYGtIGiQBjapzeqVoSYxJBXeUotjZAg?e=FAKgxW">[paper]</a></li>
     
-    <li>Neel Patel, <ins>Amin Mamandipoor</ins>, Mohammad Nouri, Mohammad Alian, <strong>SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols</strong>, HPCA 2024 <a href="https://ieeexplore.ieee.org/abstract/document/10476416">[paper]</a></li>
+    <li>Neel Patel, <strong>Amin Mamandipoor</strong>, Mohammad Nouri, Mohammad Alian, "<strong>SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols</strong>", HPCA 2024 <a href="https://ieeexplore.ieee.org/abstract/document/10476416">[paper]</a></li>
     
-    <li>Shu-Ting Wang, Hanyang Xu, <ins>Amin Mamandipoor</ins>, Rohan Mahapatra, Byung Hoon Ahn, Soroush Ghodrati, Krishnan Kailas, Mohammad Alian, Hadi Esmaeilzadeh, <strong>Data Motion Acceleration for Heterogeneous Cross-Domain Accelerator Chaining</strong>, HPCA 2024 <a href="https://ieeexplore.ieee.org/abstract/document/10476422">[paper]</a></li>
+    <li>Shu-Ting Wang, Hanyang Xu, <strong>Amin Mamandipoor</strong>, Rohan Mahapatra, Byung Hoon Ahn, Soroush Ghodrati, Krishnan Kailas, Mohammad Alian, Hadi Esmaeilzadeh, "<strong>Data Motion Acceleration for Heterogeneous Cross-Domain Accelerator Chaining</strong>", HPCA 2024 <a href="https://ieeexplore.ieee.org/abstract/document/10476422">[paper]</a></li>
     
-    <li>Neel Patel, <ins>Amin Mamandipoor</ins>, Derrick Quinn, Mohammad Alian, <strong>XFM: Accelerated Software-Defined Far Memory</strong>, MICRO 2023 <a href="https://dl.acm.org/doi/abs/10.1145/3613424.3623776">[paper]</a></li>
+    <li>Neel Patel, <strong>Amin Mamandipoor</strong>, Derrick Quinn, Mohammad Alian, "<strong>XFM: Accelerated Software-Defined Far Memory</strong>", MICRO 2023 <a href="https://dl.acm.org/doi/abs/10.1145/3613424.3623776">[paper]</a></li>
     
-    <li>Johnson Umeike, Neel Patel, Alex Manley, <ins>Amin Mamandipoor</ins>, Heechul Yun, Mohammad Alian, <strong>Profiling gem5 Simulator</strong>, ISPASS 2023 <a href="https://ieeexplore.ieee.org/abstract/document/10158201">[paper]</a></li>
+    <li>Johnson Umeike, Neel Patel, Alex Manley, <strong>Amin Mamandipoor</strong>, Heechul Yun, Mohammad Alian, "<strong>Profiling gem5 Simulator</strong>", ISPASS 2023 <a href="https://ieeexplore.ieee.org/abstract/document/10158201">[paper]</a></li>
   </ul>
 </div>
 
@@ -123,7 +140,6 @@ layout: default
   
   <p>Coming soon! I'll be sharing thoughts on computer architecture research, PhD life, and technical tutorials.</p>
   
-  <!-- Blog post entries will go here -->
   <div class="blog-placeholder">
     <h2>Stay tuned for upcoming posts</h2>
     <p>Topics will include:</p>
@@ -141,7 +157,6 @@ layout: default
   
   <p>Coming soon! This section will feature photos from research conferences, lab activities, and more.</p>
   
-  <!-- Photo gallery will go here -->
   <div class="photos-placeholder">
     <h2>Photo categories to look forward to:</h2>
     <ul>
