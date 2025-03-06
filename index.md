@@ -138,19 +138,27 @@ layout: default
 <div id="blog" class="tab-content">
   <h1>Blog Posts</h1>
   
-  <p>Coming soon! I'll be sharing thoughts on computer architecture research, PhD life, and technical tutorials.</p>
-  
-  <div class="blog-placeholder">
-    <h2>Stay tuned for upcoming posts</h2>
-<!--     <p>Topics will include:</p> -->
-<!--     <ul> -->
-<!--       <li>Near-Memory Processing (NMP) Fundamentals</li> -->
-<!--       <li>Domain-Specific Architecture Design Principles</li> -->
-<!--       <li>My Research Journey</li> -->
-<!--       <li>Technical Tutorials and Code Samples</li> -->
-<!--     </ul> -->
-  </div>
+  {% if site.posts.size > 0 %}
+    <div class="post-list">
+      {% for post in site.posts %}
+        <div class="post-preview">
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+          {% if post.excerpt %}
+            <p class="post-excerpt">{{ post.excerpt }}</p>
+            <a href="{{ post.url | relative_url }}" class="read-more">Read more...</a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>Coming soon! I'll be sharing thoughts on computer architecture research, PhD life, and technical tutorials.</p>
+    <div class="blog-placeholder">
+      <h2>Stay tuned for upcoming posts</h2>
+    </div>
+  {% endif %}
 </div>
+
 
 <div id="photos" class="tab-content">
   <h1>Photo Gallery</h1>
