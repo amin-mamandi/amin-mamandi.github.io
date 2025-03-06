@@ -149,7 +149,7 @@ layout: default
             <a href="{{ post.url | relative_url }}" class="read-more">Read more...</a>
           {% endif %}
         </div>
-      {% endfor %}
+      {% endfor %} 
     </div>
   {% else %}
     <p>Coming soon! I'll be sharing thoughts on computer architecture research, PhD life, and technical tutorials.</p>
