@@ -7,3 +7,11 @@ description: >
 show_downloads: false
 github:
   is_user_page: false
+
+# Blog settings
+permalink: /blog/:year/:month/:day/:title/
+
+# Collections
+collections:
+  posts:
+    output: true

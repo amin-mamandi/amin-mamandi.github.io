@@ -216,3 +216,5 @@ document.addEventListener('DOMContentLoaded', function() {
   document.querySelector('.tab-link').classList.add('active');
 });
 </script>
+
+<link rel="stylesheet" href="blog-styles.css">
