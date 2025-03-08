@@ -143,8 +143,8 @@ layout: default
           <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
           <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
           {% if post.excerpt %}
-            <p class="post-excerpt">{{ post.excerpt }}</p>
-            <a href="{{ post.url | relative_url }}" class="read-more">Read more...</a>
+            <div class="post-excerpt">{{ post.excerpt }}</div>
+            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
           {% endif %}
         </div>
       {% endfor %} 
