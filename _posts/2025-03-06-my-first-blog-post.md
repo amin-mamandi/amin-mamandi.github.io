@@ -1,10 +1,6 @@
 ---
 layout: post
-title: "My First Blog Post"
-date: 2025-03-06 10:00:00 -0000
-categories: research
+title: Welcome
+author: Amin
 ---
-
-## Introduction
-
-This is my first blog post. I'll be sharing my thoughts on computer architecture research and my PhD journey.
+## Welcome to our site!  
