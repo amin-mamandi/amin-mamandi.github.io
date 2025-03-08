@@ -138,12 +138,12 @@ layout: default
   
   <div class="post-list">
     <div class="post-preview">
-      <h2><a href="./blog/2025/03/06/my-first-blog-post/index.html">My First Blog Post</a></h2>
+      <h2><a href="/blog/2025/03/06/my-first-blog-post/">My First Blog Post</a></h2>
       <p class="post-date">March 6, 2025</p>
       <div class="post-excerpt">
         <p>This is my first blog post. I'll be sharing my thoughts on computer architecture research and my PhD journey.</p>
       </div>
-      <a href="./blog/2025/03/06/my-first-blog-post/index.html" class="read-more">Read more →</a>
+      <a href="/blog/2025/03/06/my-first-blog-post/" class="read-more">Read more →</a>
     </div>
   </div>
 </div>
