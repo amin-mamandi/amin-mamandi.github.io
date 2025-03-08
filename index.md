@@ -136,16 +136,25 @@ layout: default
 <div id="blog" class="tab-content">
   <h1>Blog Posts</h1>
   
-  <div class="post-list">
-    <div class="post-preview">
-      <h2><a href="/blog/2025/03/06/my-first-blog-post/">My First Blog Post</a></h2>
-      <p class="post-date">March 6, 2025</p>
-      <div class="post-excerpt">
-        <p>This is my first blog post. I'll be sharing my thoughts on computer architecture research and my PhD journey.</p>
-      </div>
-      <a href="/blog/2025/03/06/my-first-blog-post/" class="read-more">Read more →</a>
+  {% if site.posts.size > 0 %}
+    <div class="post-list">
+      {% for post in site.posts %}
+        <div class="post-preview">
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+          <div class="post-excerpt">
+            {{ post.excerpt }}
+          </div>
+          <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+        </div>
+      {% endfor %}
     </div>
-  </div>
+  {% else %}
+    <p>Coming soon! I'll be sharing thoughts on computer architecture research, PhD life, and technical tutorials.</p>
+    <div class="blog-placeholder">
+      <h2>Stay tuned for upcoming posts</h2>
+    </div>
+  {% endif %}
 </div>
 
 
