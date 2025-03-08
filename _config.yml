@@ -12,6 +12,8 @@ github:
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
 
+url: "https://amin-mamandi.github.io"
+
 # Collections
 collections:
   posts:
