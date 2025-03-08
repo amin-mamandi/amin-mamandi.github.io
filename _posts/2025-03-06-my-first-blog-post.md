@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Welcome
 author: Amin
 tags: [Hello]
