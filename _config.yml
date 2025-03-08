@@ -9,7 +9,7 @@ github:
   is_user_page: false
 
 # Blog settings
-markdown: kramdown
+# theme: jekyll-theme-minimal
 permalink: /blog/:year/:month/:day/:title/
 
 url: "https://amin-mamandi.github.io"
