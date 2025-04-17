@@ -1,0 +1,20 @@
+theme: jekyll-theme-minimal
+title: Amin MamandiPoor
+logo: meAmin.jpg
+description: >
+  aminm [at] ku [dot] edu
+  <br>
+show_downloads: false
+github:
+  is_user_page: false
+
+# Blog settings
+# theme: jekyll-theme-minimal
+permalink: /blog/:year/:month/:day/:title/
+
+url: "https://amin-mamandi.github.io"
+
+# Collections
+collections:
+  posts:
+    output: true
