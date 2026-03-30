@@ -23,7 +23,6 @@ You can find more details in my [CV]({{ '/Amin-cv.pdf?v=20260330' | relative_url
 ## Writing
 
 - [My First Blog Post]({{ '/writing/my-first-blog-post/' | relative_url }})
-- [Test Blog Post]({{ '/writing/test-blog-post/' | relative_url }})
 
 ## Photos
 

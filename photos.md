@@ -8,19 +8,16 @@ permalink: /photos/
 
 # Photos
 
-This page uses simple static image files.
+I have not added photos here yet.
 
-## Test Photo 1
+When I want to add one later, I can keep it simple:
 
-![Test Photo 1]({{ '/photos/test-images/test-photo-1.jpg' | relative_url }})
+```md
+## SC 2026
 
-## Test Photo 2
+![At the poster session](/photos/my-photo.jpg)
 
-![Test Photo 2]({{ '/photos/test-images/test-photo-2.jpg' | relative_url }})
+A short note about where this was taken.
+```
 
-## Planned Categories
-
-- Conference presentations
-- Research lab activities
-- University of Kansas campus photos
-- Hiking and outdoor photos
+That is enough for this page.
