@@ -121,7 +121,7 @@ layout: default
   <h1><a href="https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en">[Scholar]</a> <a href="https://dblp.org/pid/350/2135.html">[DBLP]</a></h1>
 
   <ul class="publications-list">
-    <li>Connor Sullivan, <strong>Amin Mamandipoor</strong>, Cole Strickler, Heechul Yun, "<strong>Per-Bank Memory Bandwidth Regulation for Predictable and Performant Real-Time Systems</strong>", RTA 2026 <a href="https://arxiv.org/abs/2603.26054">[paper]</a> (Accepted)</li>
+    <li>Connor Sullivan, <strong>Amin Mamandipoor</strong>, Cole Strickler, Heechul Yun, "<strong>Per-Bank Memory Bandwidth Regulation for Predictable and Performant Real-Time Systems</strong>", RTA 2026 <a href="https://arxiv.org/abs/2603.26054">[paper]</a></li>
     
     <li><strong>Amin Mamandipoor</strong>, Huy Tran, and Mohammad Alian, "<strong>SDT: Cutting Datacenter Tax Through Simultaneous Data-Delivery Threads</strong>", CAL 2025 <a href="https://kansas-my.sharepoint.com/:b:/g/personal/a972m888_home_ku_edu/EcwRJPqPDqBCgqyrYGtIGiQBjapzeqVoSYxJBXeUotjZAg?e=FAKgxW">[paper]</a></li>
     

@@ -14,7 +14,10 @@ permalink: /blog/:year/:month/:day/:title/
 
 url: "https://amin-mamandi.github.io"
 
-# Collections
-collections:
-  posts:
-    output: true
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Amin
