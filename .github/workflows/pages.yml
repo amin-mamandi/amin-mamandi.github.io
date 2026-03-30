@@ -22,22 +22,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.1"
-          bundler-cache: true
-
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
         env:
           JEKYLL_ENV: production
+
+      - name: List generated routes
+        run: |
+          echo "Built files:"
+          find _site -maxdepth 6 -type f | sort
+          echo
+          echo "Blog-related files:"
+          find _site -maxdepth 6 -type f | sort | grep '/blog/' || true
+          echo
+          echo "Photos-related files:"
+          find _site -maxdepth 6 -type f | sort | grep '/photos/' || true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
