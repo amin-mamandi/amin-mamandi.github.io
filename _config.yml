@@ -8,16 +8,4 @@ show_downloads: false
 github:
   is_user_page: true
 
-# Blog settings
-# theme: jekyll-theme-minimal
-permalink: /blog/:year/:month/:day/:title/
-
 url: "https://amin-mamandi.github.io"
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      author: Amin

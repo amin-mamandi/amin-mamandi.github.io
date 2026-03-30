@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: My First Blog Post
 permalink: /blog/my-first-blog-post/
 ---
+
+[Home]({{ '/' | relative_url }}) | [Blog]({{ '/blog/' | relative_url }}) | [Photos]({{ '/photos/' | relative_url }})
 
 # My First Blog Post
 
