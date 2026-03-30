@@ -80,8 +80,8 @@ layout: default
 <ul class="nav-tabs">
   <li><a href="#home" class="tab-link active" data-tab="home">Home</a></li>
   <li><a href="#publications" class="tab-link" data-tab="publications">Publications</a></li>
-  <li><a href="#blog" class="tab-link" data-tab="blog">Blog</a></li>
-  <li><a href="#photos" class="tab-link" data-tab="photos">Photos</a></li>
+  <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+  <li><a href="{{ '/photos/' | relative_url }}">Photos</a></li>
   <li><a href="#about" class="tab-link" data-tab="about">About</a></li>
 </ul>
 
@@ -121,7 +121,7 @@ layout: default
   <h1><a href="https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en">[Scholar]</a> <a href="https://dblp.org/pid/350/2135.html">[DBLP]</a></h1>
 
   <ul class="publications-list">
-    <li>Connor Sullivan, <strong>Amin Mamandipoor</strong>, Cole Strickler, Heechul Yun, "<strong>Per-Bank Memory Bandwidth Regulation for Predictable and Performant Real-Time Systems</strong>", RTA 2026 <a href="https://arxiv.org/abs/2603.26054">[paper]</a></li>
+    <li>Connor Sullivan, <strong>Amin Mamandipoor</strong>, Cole Strickler, Heechul Yun, "<strong>Per-Bank Memory Bandwidth Regulation for Predictable and Performant Real-Time Systems</strong>", RTAS 2026 <a href="https://arxiv.org/abs/2603.26054">[paper]</a></li>
     
     <li><strong>Amin Mamandipoor</strong>, Huy Tran, and Mohammad Alian, "<strong>SDT: Cutting Datacenter Tax Through Simultaneous Data-Delivery Threads</strong>", CAL 2025 <a href="https://kansas-my.sharepoint.com/:b:/g/personal/a972m888_home_ku_edu/EcwRJPqPDqBCgqyrYGtIGiQBjapzeqVoSYxJBXeUotjZAg?e=FAKgxW">[paper]</a></li>
     
@@ -137,6 +137,8 @@ layout: default
 
 <div id="blog" class="tab-content">
   <h1>Blog Posts</h1>
+
+  <p><a href="{{ '/blog/' | relative_url }}">Open the full blog page</a></p>
 
   <div class="post-list">
     {% for post in site.posts limit: 5 %}
@@ -157,6 +159,7 @@ layout: default
   <h1>Photo Gallery</h1>
   
   <p>Coming soon!</p>
+  <p><a href="{{ '/photos/' | relative_url }}">Open the photos page</a></p>
   
   <div class="photos-placeholder">
     <h2>Photo categories to look forward to:</h2>
