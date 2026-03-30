@@ -88,11 +88,11 @@ layout: default
 <div id="home" class="tab-content active">
 <!--   <h1>Amin MamandiPoor</h1> -->
 
-  <p>I am a Ph.D. candidate in the Department of Electrical Engineering and Computer Science (EECS) at the <a href="https://ku.edu/">University of Kansas (KU)</a>, working under the supervision of Prof. <a href="https://www.ittc.ku.edu/~heechul/">Heechul Yun</a>.</p>
+  <p>I am a Ph.D. candidate in Electrical Engineering and Computer Science at the <a href="https://ku.edu/">University of Kansas</a>, advised by Prof. <a href="https://www.ittc.ku.edu/~heechul/">Heechul Yun</a>.</p>
 
-  <p>Prior to my doctoral studies, I earned both my Bachelor's and Master's degrees in Computer Engineering from the University of Tabriz.</p>
+  <p>Before coming to KU, I received my bachelor's and master's degrees in Computer Engineering from the University of Tabriz.</p>
 
-  <p>For more details about my academic and professional background, please refer to my <a href="Amin-cv.pdf">CV</a>.</p>
+  <p>You can find more details in my <a href="Amin-cv.pdf">CV</a>.</p>
 
   <h1>News</h1>
 
@@ -121,6 +121,8 @@ layout: default
   <h1><a href="https://scholar.google.com/citations?user=yyNzGe8AAAAJ&hl=en">[Scholar]</a> <a href="https://dblp.org/pid/350/2135.html">[DBLP]</a></h1>
 
   <ul class="publications-list">
+    <li>Connor Sullivan, <strong>Amin Mamandipoor</strong>, Cole Strickler, Heechul Yun, "<strong>Per-Bank Memory Bandwidth Regulation for Predictable and Performant Real-Time Systems</strong>", RTA 2026 <a href="https://arxiv.org/abs/2603.26054">[paper]</a> (Accepted)</li>
+    
     <li><strong>Amin Mamandipoor</strong>, Huy Tran, and Mohammad Alian, "<strong>SDT: Cutting Datacenter Tax Through Simultaneous Data-Delivery Threads</strong>", CAL 2025 <a href="https://kansas-my.sharepoint.com/:b:/g/personal/a972m888_home_ku_edu/EcwRJPqPDqBCgqyrYGtIGiQBjapzeqVoSYxJBXeUotjZAg?e=FAKgxW">[paper]</a></li>
     
     <li>Neel Patel, <strong>Amin Mamandipoor</strong>, Mohammad Nouri, Mohammad Alian, "<strong>SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols</strong>", HPCA 2024 <a href="https://ieeexplore.ieee.org/abstract/document/10476416">[paper]</a></li>
@@ -135,16 +137,18 @@ layout: default
 
 <div id="blog" class="tab-content">
   <h1>Blog Posts</h1>
-  
+
   <div class="post-list">
+    {% for post in site.posts limit: 5 %}
     <div class="post-preview">
-      <h2><a href="/blog/2025/03/06/my-first-blog-post/">My First Blog Post</a></h2>
-      <p class="post-date">March 6, 2025</p>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
       <div class="post-excerpt">
-        <p>This is my first blog post. I'll be sharing my thoughts on computer architecture research and my PhD journey.</p>
+        {{ post.excerpt }}
       </div>
-      <a href="/blog/2025/03/06/my-first-blog-post/" class="read-more">Read more →</a>
+      <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
     </div>
+    {% endfor %}
   </div>
 </div>
 
