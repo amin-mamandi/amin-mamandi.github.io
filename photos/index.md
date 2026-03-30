@@ -6,9 +6,19 @@ permalink: /photos/
 
 # Photos
 
-I have not populated this page yet, but the route is now in place and working.
+This page uses simple static image files.
 
-I plan to add:
+## Test Photos
+
+### Test Photo 1
+
+![Test Photo 1]({{ '/photos/test-images/test-photo-1.jpg' | relative_url }})
+
+### Test Photo 2
+
+![Test Photo 2]({{ '/photos/test-images/test-photo-2.jpg' | relative_url }})
+
+## Planned Categories
 
 - Conference presentations
 - Research lab activities

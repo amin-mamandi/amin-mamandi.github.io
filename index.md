@@ -141,16 +141,22 @@ layout: default
   <p><a href="{{ '/blog/' | relative_url }}">Open the full blog page</a></p>
 
   <div class="post-list">
-    {% for post in site.posts limit: 5 %}
     <div class="post-preview">
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+      <h2><a href="{{ '/blog/my-first-blog-post/' | relative_url }}">My First Blog Post</a></h2>
+      <p class="post-date">March 6, 2025</p>
       <div class="post-excerpt">
-        {{ post.excerpt }}
+        <p>This is my first blog post. I'll be sharing my thoughts on computer architecture research and my PhD journey.</p>
       </div>
-      <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+      <a href="{{ '/blog/my-first-blog-post/' | relative_url }}" class="read-more">Read more →</a>
     </div>
-    {% endfor %}
+    <div class="post-preview">
+      <h2><a href="{{ '/blog/test-blog-post/' | relative_url }}">Test Blog Post</a></h2>
+      <p class="post-date">March 30, 2026</p>
+      <div class="post-excerpt">
+        <p>This is a test post to verify that the blog pipeline is working end to end.</p>
+      </div>
+      <a href="{{ '/blog/test-blog-post/' | relative_url }}" class="read-more">Read more →</a>
+    </div>
   </div>
 </div>
 
