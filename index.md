@@ -78,11 +78,11 @@ layout: default
 </style>
 
 <ul class="nav-tabs">
-  <li><a href="#home" class="tab-link active" onclick="openTab(event, 'home')">Home</a></li>
-  <li><a href="#publications" class="tab-link" onclick="openTab(event, 'publications')">Publications</a></li>
-  <li><a href="#blog" class="tab-link" onclick="openTab(event, 'blog')">Blog</a></li>
-  <li><a href="#photos" class="tab-link" onclick="openTab(event, 'photos')">Photos</a></li>
-  <li><a href="#about" class="tab-link" onclick="openTab(event, 'about')">About</a></li>
+  <li><a href="#home" class="tab-link active" data-tab="home">Home</a></li>
+  <li><a href="#publications" class="tab-link" data-tab="publications">Publications</a></li>
+  <li><a href="#blog" class="tab-link" data-tab="blog">Blog</a></li>
+  <li><a href="#photos" class="tab-link" data-tab="photos">Photos</a></li>
+  <li><a href="#about" class="tab-link" data-tab="about">About</a></li>
 </ul>
 
 <div id="home" class="tab-content active">
@@ -191,29 +191,42 @@ document.getElementById('show-more').onclick = function() {
   this.style.display = 'none';
 };
 
-// Function to handle tab navigation
-function openTab(evt, tabName) {
-  // Hide all tab content
+function setActiveTab(tabName) {
   var tabcontent = document.getElementsByClassName("tab-content");
   for (var i = 0; i < tabcontent.length; i++) {
     tabcontent[i].classList.remove("active");
   }
-  
-  // Remove "active" class from all tab links
+
   var tablinks = document.getElementsByClassName("tab-link");
   for (var i = 0; i < tablinks.length; i++) {
     tablinks[i].classList.remove("active");
   }
-  
-  // Show the current tab and add "active" class to the button that opened the tab
-  document.getElementById(tabName).classList.add("active");
-  evt.currentTarget.classList.add("active");
+
+  var tab = document.getElementById(tabName) || document.getElementById("home");
+  var activeName = tab ? tab.id : "home";
+  tab.classList.add("active");
+
+  var activeLink = document.querySelector('.tab-link[data-tab="' + activeName + '"]');
+  if (activeLink) {
+    activeLink.classList.add("active");
+  }
 }
 
-// Set the default tab (Home) as active when the page loads
 document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('home').classList.add('active');
-  document.querySelector('.tab-link').classList.add('active');
+  var links = document.querySelectorAll('.tab-link');
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener('click', function() {
+      setActiveTab(this.dataset.tab);
+    });
+  }
+
+  var initialTab = window.location.hash ? window.location.hash.substring(1) : 'home';
+  setActiveTab(initialTab);
+});
+
+window.addEventListener('hashchange', function() {
+  var nextTab = window.location.hash ? window.location.hash.substring(1) : 'home';
+  setActiveTab(nextTab);
 });
 </script>
 

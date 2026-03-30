@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/blog-styles.css' | relative_url }}">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      color: #222;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background: #fff;
+    }
+
+    h1 {
+      margin-bottom: 24px;
+    }
+
+    a {
+      color: #1f5fbf;
+    }
+
+    .page-nav {
+      margin-bottom: 32px;
+    }
+
+    .page-nav a {
+      margin-right: 16px;
+      text-decoration: none;
+    }
+
+    .page-nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <nav class="page-nav">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/blog/' | relative_url }}">Blog</a>
+    <a href="{{ '/photos/' | relative_url }}">Photos</a>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>
