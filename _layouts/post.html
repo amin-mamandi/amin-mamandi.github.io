@@ -1,11 +1,55 @@
----
-layout: default
----
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/blog-styles.css' | relative_url }}">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      color: #222;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background: #fff;
+    }
 
-<div class="post">
-  {{ content }}
-</div>
+    h1 {
+      margin-bottom: 10px;
+    }
 
-<a href="{{ '/' | relative_url }}">Back to Home</a>
+    .meta {
+      color: #666;
+      font-size: 0.95rem;
+      margin-bottom: 30px;
+    }
+
+    .post {
+      margin-bottom: 30px;
+    }
+
+    .post h2,
+    .post h3 {
+      margin-top: 28px;
+    }
+
+    .post a {
+      color: #1f5fbf;
+    }
+  </style>
+</head>
+<body>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <p class="meta">{{ page.date | date: "%B %-d, %Y" }}</p>
+
+    <div class="post">
+      {{ content }}
+    </div>
+
+    <a href="{{ '/' | relative_url }}" class="back-link">Back to Home</a>
+  </article>
+</body>
+</html>
