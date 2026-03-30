@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Test Blog Post
-permalink: /blog/test-blog-post/
+permalink: /writing/test-blog-post/
 ---
 
-[Home]({{ '/' | relative_url }}) | [Blog]({{ '/blog/' | relative_url }}) | [Photos]({{ '/photos/' | relative_url }})
+[Home]({{ '/' | relative_url }}) | [Writing]({{ '/writing/' | relative_url }}) | [Photos]({{ '/photos/' | relative_url }})
 
 # Test Blog Post
 

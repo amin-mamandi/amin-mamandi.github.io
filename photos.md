@@ -4,7 +4,7 @@ title: Photos
 permalink: /photos/
 ---
 
-[Home]({{ '/' | relative_url }}) | [Blog]({{ '/blog/' | relative_url }}) | [Photos]({{ '/photos/' | relative_url }})
+[Home]({{ '/' | relative_url }}) | [Writing]({{ '/writing/' | relative_url }}) | [Photos]({{ '/photos/' | relative_url }})
 
 # Photos
 

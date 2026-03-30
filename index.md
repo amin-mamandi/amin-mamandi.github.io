@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-[Home]({{ '/' | relative_url }}) | [Blog]({{ '/blog/' | relative_url }}) | [Photos]({{ '/photos/' | relative_url }})
+[Home]({{ '/' | relative_url }}) | [Writing]({{ '/writing/' | relative_url }}) | [Photos]({{ '/photos/' | relative_url }})
 
 I am a Ph.D. candidate in Electrical Engineering and Computer Science at the [University of Kansas](https://ku.edu/), advised by Prof. [Heechul Yun](https://www.ittc.ku.edu/~heechul/).
 
@@ -20,10 +20,10 @@ You can find more details in my [CV]({{ '/Amin-cv.pdf?v=20260330' | relative_url
 - Neel Patel, **Amin Mamandipoor**, Derrick Quinn, Mohammad Alian, "**XFM: Accelerated Software-Defined Far Memory**," MICRO 2023 [paper](https://dl.acm.org/doi/abs/10.1145/3613424.3623776)
 - Johnson Umeike, Neel Patel, Alex Manley, **Amin Mamandipoor**, Heechul Yun, Mohammad Alian, "**Profiling gem5 Simulator**," ISPASS 2023 [paper](https://ieeexplore.ieee.org/abstract/document/10158201)
 
-## Blog
+## Writing
 
-- [My First Blog Post]({{ '/blog/my-first-blog-post/' | relative_url }})
-- [Test Blog Post]({{ '/blog/test-blog-post/' | relative_url }})
+- [My First Blog Post]({{ '/writing/my-first-blog-post/' | relative_url }})
+- [Test Blog Post]({{ '/writing/test-blog-post/' | relative_url }})
 
 ## Photos
 
