@@ -26,7 +26,7 @@ You can find more details in my [CV]({{ '/Amin-cv.pdf?v=20260330' | relative_url
 
 ## Photos
 
-- [Open the photos page]({{ '/photos/' | relative_url }})
+- [Photos]({{ '/photos/' | relative_url }})
 
 ## News
 
@@ -37,19 +37,19 @@ You can find more details in my [CV]({{ '/Amin-cv.pdf?v=20260330' | relative_url
 
 <details>
 	<summary>Show more</summary>
-
-	- **December 2023** Accepted the GTA offer for the Spring 2024 semester (EECS 645 - Computer Architecture)
-	- **October 2023** Presented a poster at ACE Annual Meeting, Champaign, Illinois
-	- **June 2023** Attended ISCA 2023, Orlando, Florida
-	- **May 2023** Passed qualifying exam
-	- **April 2023** Attended ISPASS 2023, Raleigh, North Carolina
-	- **April 2023** ISPASS 2023 student travel grant awarded
-	- **February 2023** I will be working as a research scholar at ACE Center for Evolvable Computing, one of the seven centers in JUMP 2.0, led by the Semiconductor Research Corporation and sponsored by DARPA
-	- **October 2022** Attended MICRO 2022, Chicago, Illinois
-	- **October 2022** MICRO 2022 student travel grant awarded
-	- **August 2022** Got the second place in Open Innovation Contest for AXDIMM Technology
-	- **January 2022** Started my PhD at KU
-
+	<ul>
+		<li><strong>December 2023</strong> Accepted the GTA offer for the Spring 2024 semester (EECS 645 - Computer Architecture)</li>
+		<li><strong>October 2023</strong> Presented a poster at ACE Annual Meeting, Champaign, Illinois</li>
+		<li><strong>June 2023</strong> Attended ISCA 2023, Orlando, Florida</li>
+		<li><strong>May 2023</strong> Passed qualifying exam</li>
+		<li><strong>April 2023</strong> Attended ISPASS 2023, Raleigh, North Carolina</li>
+		<li><strong>April 2023</strong> ISPASS 2023 student travel grant awarded</li>
+		<li><strong>February 2023</strong> I will be working as a research scholar at ACE Center for Evolvable Computing, one of the seven centers in JUMP 2.0, led by the Semiconductor Research Corporation and sponsored by DARPA</li>
+		<li><strong>October 2022</strong> Attended MICRO 2022, Chicago, Illinois</li>
+		<li><strong>October 2022</strong> MICRO 2022 student travel grant awarded</li>
+		<li><strong>August 2022</strong> Got the second place in Open Innovation Contest for AXDIMM Technology</li>
+		<li><strong>January 2022</strong> Started my PhD at KU</li>
+	</ul>
 </details>
 
 ## Contact

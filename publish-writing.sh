@@ -9,6 +9,9 @@ fi
 
 source_file="$1"
 
+writing_dir="./writing"
+writing_index="${writing_dir}/index.md"
+
 if [ ! -f "$source_file" ]; then
   echo "File not found: $source_file"
   exit 1
@@ -33,8 +36,10 @@ if [ -z "$slug" ]; then
   exit 1
 fi
 
+mkdir -p "$writing_dir"
+
 target_file="${slug}.md"
-target_path="./${target_file}"
+target_path="${writing_dir}/${target_file}"
 target_url="/writing/${slug}/"
 
 if [ -e "$target_path" ]; then
@@ -64,9 +69,26 @@ EOF
 
 cat "$body_file" >> "$target_path"
 
-if ! grep -Fq "${target_url}" writing.md; then
-  printf -- "- [%s]({{ '%s' | relative_url }})\n" "$title" "$target_url" >> writing.md
+if [ ! -f "$writing_index" ]; then
+  cat > "$writing_index" <<EOF
+---
+layout: default
+title: Writing
+permalink: /writing/
+---
+
+[Home]({{ '/' | relative_url }}) | [Writing]({{ '/writing/' | relative_url }}) | [Photos]({{ '/photos/' | relative_url }})
+
+# Writing
+
+I keep this section simple. Each post is just a markdown file with a fixed link.
+
+EOF
+fi
+
+if ! grep -Fq "${target_url}" "$writing_index"; then
+  printf -- "- [%s]({{ '%s' | relative_url }})\n" "$title" "$target_url" >> "$writing_index"
 fi
 
 echo "Created ${target_path}"
-echo "Added link to writing.md"
+echo "Added link to ${writing_index}"
