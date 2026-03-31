@@ -13,12 +13,12 @@ You can find more details in my [CV]({{ '/Amin-cv.pdf?v=20260330' | relative_url
 
 ## Publications
 
-- Connor Sullivan, **Amin Mamandipoor**, Cole Strickler, Heechul Yun, "**Per-Bank Memory Bandwidth Regulation for Predictable and Performant Real-Time Systems**," IEEE Intl. Conference on Real-Time and Embedded Technology and Applications Symposium (RTAS), May 2026 [paper](https://arxiv.org/abs/2603.26054) (Accepted)
-- **Amin Mamandipoor**, Huy Tran, and Mohammad Alian, "**SDT: Cutting Datacenter Tax Through Simultaneous Data-Delivery Threads**," CAL 2025 [paper](https://kansas-my.sharepoint.com/:b:/g/personal/a972m888_home_ku_edu/EcwRJPqPDqBCgqyrYGtIGiQBjapzeqVoSYxJBXeUotjZAg?e=FAKgxW)
-- Neel Patel, **Amin Mamandipoor**, Mohammad Nouri, Mohammad Alian, "**SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols**," HPCA 2024 [paper](https://ieeexplore.ieee.org/abstract/document/10476416)
-- Shu-Ting Wang, Hanyang Xu, **Amin Mamandipoor**, Rohan Mahapatra, Byung Hoon Ahn, Soroush Ghodrati, Krishnan Kailas, Mohammad Alian, Hadi Esmaeilzadeh, "**Data Motion Acceleration for Heterogeneous Cross-Domain Accelerator Chaining**," HPCA 2024 [paper](https://ieeexplore.ieee.org/abstract/document/10476422)
-- Neel Patel, **Amin Mamandipoor**, Derrick Quinn, Mohammad Alian, "**XFM: Accelerated Software-Defined Far Memory**," MICRO 2023 [paper](https://dl.acm.org/doi/abs/10.1145/3613424.3623776)
-- Johnson Umeike, Neel Patel, Alex Manley, **Amin Mamandipoor**, Heechul Yun, Mohammad Alian, "**Profiling gem5 Simulator**," ISPASS 2023 [paper](https://ieeexplore.ieee.org/abstract/document/10158201)
+- Connor Sullivan, <u><strong>Amin Mamandipoor</strong></u>, Cole Strickler, Heechul Yun, "**Per-Bank Memory Bandwidth Regulation for Predictable and Performant Real-Time Systems**," RTAS 2026 [paper](https://arxiv.org/abs/2603.26054)
+- <u><strong>Amin Mamandipoor</strong></u>, Huy Tran, and Mohammad Alian, "**SDT: Cutting Datacenter Tax Through Simultaneous Data-Delivery Threads**," CAL 2025 [paper](https://kansas-my.sharepoint.com/:b:/g/personal/a972m888_home_ku_edu/EcwRJPqPDqBCgqyrYGtIGiQBjapzeqVoSYxJBXeUotjZAg?e=FAKgxW)
+- Neel Patel, <u><strong>Amin Mamandipoor</strong></u>, Mohammad Nouri, Mohammad Alian, "**SmartDIMM: In-Memory Acceleration of Upper Layer I/O Protocols**," HPCA 2024 [paper](https://ieeexplore.ieee.org/abstract/document/10476416)
+- Shu-Ting Wang, Hanyang Xu, <u><strong>Amin Mamandipoor</strong></u>, Rohan Mahapatra, Byung Hoon Ahn, Soroush Ghodrati, Krishnan Kailas, Mohammad Alian, Hadi Esmaeilzadeh, "**Data Motion Acceleration for Heterogeneous Cross-Domain Accelerator Chaining**," HPCA 2024 [paper](https://ieeexplore.ieee.org/abstract/document/10476422)
+- Neel Patel, <u><strong>Amin Mamandipoor</strong></u>, Derrick Quinn, Mohammad Alian, "**XFM: Accelerated Software-Defined Far Memory**," MICRO 2023 [paper](https://dl.acm.org/doi/abs/10.1145/3613424.3623776)
+- Johnson Umeike, Neel Patel, Alex Manley, <u><strong>Amin Mamandipoor</strong></u>, Heechul Yun, Mohammad Alian, "**Profiling gem5 Simulator**," ISPASS 2023 [paper](https://ieeexplore.ieee.org/abstract/document/10158201)
 
 ## Writing
 
@@ -34,6 +34,23 @@ You can find more details in my [CV]({{ '/Amin-cv.pdf?v=20260330' | relative_url
 - **May 2024** Presented our latest project at the [ACE Spring Meeting](https://calendars.illinois.edu/detail/7507?eventId=33484844), Chicago, Illinois
 - **April 2024** [gem5 bootcamp 2024](https://www.gem5.org/events/bootcamp-2024) travel grant awarded
 - **January 2024** First Place in [I2S Student Research Symposium](https://i2s-research.ku.edu/isrs) at the University of Kansas
+
+<details>
+	<summary>Show more</summary>
+
+	- **December 2023** Accepted the GTA offer for the Spring 2024 semester (EECS 645 - Computer Architecture)
+	- **October 2023** Presented a poster at ACE Annual Meeting, Champaign, Illinois
+	- **June 2023** Attended ISCA 2023, Orlando, Florida
+	- **May 2023** Passed qualifying exam
+	- **April 2023** Attended ISPASS 2023, Raleigh, North Carolina
+	- **April 2023** ISPASS 2023 student travel grant awarded
+	- **February 2023** I will be working as a research scholar at ACE Center for Evolvable Computing, one of the seven centers in JUMP 2.0, led by the Semiconductor Research Corporation and sponsored by DARPA
+	- **October 2022** Attended MICRO 2022, Chicago, Illinois
+	- **October 2022** MICRO 2022 student travel grant awarded
+	- **August 2022** Got the second place in Open Innovation Contest for AXDIMM Technology
+	- **January 2022** Started my PhD at KU
+
+</details>
 
 ## Contact
 
