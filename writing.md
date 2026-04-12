@@ -8,6 +8,6 @@ permalink: /writing/
 
 # Writing
 
-I keep this section simple. Each post is just a markdown file with a fixed link.
-
 - [My First Blog Post]({{ '/writing/my-first-blog-post/' | relative_url }})
+
+- [NanoGPT for a Professional Headshot]({{ '/writing/ai-headshot/' | relative_url }})

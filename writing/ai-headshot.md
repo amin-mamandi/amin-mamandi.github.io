@@ -12,8 +12,7 @@ I wanted a cleaner profile image for my website, so I used **nanoGPT** to genera
 
 | Original photo | AI-generated professional headshot |
 |---|---|
-| ![My original photo]({{ '/me-original.jpg' \| relative_url }}) | ![AI-generated professional headshot]({{ '/photos/me-ai-generated.png' \| relative_url }}) |
+| ![My original photo]({{ '/meAmin.jpg' \| relative_url }}) | ![AI-generated professional headshot]({{ '/photos/me-ai-generated.png' \| relative_url }}) |
 
 
-The result keeps my overall look while improving lighting, framing, and presentation.  
 I like having both versions side by side to show the transformation.

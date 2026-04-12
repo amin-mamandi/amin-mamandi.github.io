@@ -9,4 +9,4 @@ permalink: /photos/
 # Photos
 
 
-![AI-generated headshot]({{ '/me-ai-generated.png' | relative_url }})
+![AI-generated headshot]({{ '/photos/me-ai-generated.png' | relative_url }})
