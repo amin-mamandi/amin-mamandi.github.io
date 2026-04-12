@@ -9,3 +9,5 @@ permalink: /writing/
 # Writing
 
 - [My First Blog Post]({{ '/writing/my-first-blog-post/' | relative_url }})
+
+- [NanoGPT for a Professional Headshot]({{ '/writing/ai-headshot/' | relative_url }})
