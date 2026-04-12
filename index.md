@@ -20,11 +20,9 @@ You can find more details in my [CV]({{ '/Amin-cv.pdf?v=20260330' | relative_url
 - Neel Patel, <u><strong>Amin Mamandipoor</strong></u>, Derrick Quinn, Mohammad Alian, "**XFM: Accelerated Software-Defined Far Memory**," MICRO 2023 [paper](https://dl.acm.org/doi/abs/10.1145/3613424.3623776)
 - Johnson Umeike, Neel Patel, Alex Manley, <u><strong>Amin Mamandipoor</strong></u>, Heechul Yun, Mohammad Alian, "**Profiling gem5 Simulator**," ISPASS 2023 [paper](https://ieeexplore.ieee.org/abstract/document/10158201)
 
-## Writing
+## Blogs
 
-- [My First Blog Post]({{ '/writing/my-first-blog-post/' | relative_url }})
-
-- [NanoGPT for a Professional Headshot]({{ '/writing/ai-headshot/' | relative_url }})
+- [Blogs]({{ '/writing/' | relative_url }})
 
 ## Photos
 

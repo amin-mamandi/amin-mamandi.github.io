@@ -8,6 +8,6 @@ permalink: /writing/my-first-blog-post/
 
 # My First Blog Post
 
-March 30, 2025
+March 30, 2026
 
-This is my first blog post. It took nearly a year, but I finally figured out how to publish on here!
+This is my first blog post!
