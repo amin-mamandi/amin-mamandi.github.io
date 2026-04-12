@@ -24,6 +24,8 @@ You can find more details in my [CV]({{ '/Amin-cv.pdf?v=20260330' | relative_url
 
 - [My First Blog Post]({{ '/writing/my-first-blog-post/' | relative_url }})
 
+- [NanoGPT for a Professional Headshot]({{ '/writing/ai-headshot/' | relative_url }})
+
 ## Photos
 
 - [Photos]({{ '/photos/' | relative_url }})

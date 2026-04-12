@@ -9,10 +9,4 @@ permalink: /photos/
 # Photos
 
 
-```md
-
-![At the poster session](/photos/my-photo.jpg)
-
-```
-
-That is enough for this page.
+![AI-generated headshot]({{ '/me-ai-generated.png' | relative_url }})
