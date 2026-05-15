@@ -30,6 +30,9 @@ You can find more details in my [CV]({{ '/Amin-cv.pdf?v=20260330' | relative_url
 
 ## News
 
+
+- **May 2026** Accepted a summer internship offer from [ClockWork](https://clockwork.io!
+- **September 2025** Served as one of the committee chairs for the Graduate Engineering Association (GEA). [GEA](https://engr.ku.edu/graduate-engineering-association)
 - **June 2024** IndySCC Selected Participant, SC24 Student Cluster Competition [IndySCC](https://sc24.supercomputing.org/students/indyscc/)
 - **May 2024** Presented our latest project at the [ACE Spring Meeting](https://calendars.illinois.edu/detail/7507?eventId=33484844), Chicago, Illinois
 - **April 2024** [gem5 bootcamp 2024](https://www.gem5.org/events/bootcamp-2024) travel grant awarded
@@ -38,7 +41,6 @@ You can find more details in my [CV]({{ '/Amin-cv.pdf?v=20260330' | relative_url
 <details>
 	<summary>Show more</summary>
 	<ul>
-		<li><strong>December 2023</strong> Accepted the GTA offer for the Spring 2024 semester (EECS 645 - Computer Architecture)</li>
 		<li><strong>October 2023</strong> Presented a poster at ACE Annual Meeting, Champaign, Illinois</li>
 		<li><strong>June 2023</strong> Attended ISCA 2023, Orlando, Florida</li>
 		<li><strong>May 2023</strong> Passed qualifying exam</li>
