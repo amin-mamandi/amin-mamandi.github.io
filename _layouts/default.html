@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ site.title }}</title>
+  {% if jekyll.environment == 'production' %}
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="985feaef-2d36-45c6-b32c-5572c63eee83"></script>
+  {% endif %}
   <style>
     body {
       margin: 0;

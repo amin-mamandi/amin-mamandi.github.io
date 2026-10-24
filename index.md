@@ -5,7 +5,7 @@ title: Home
 
 ## About
 
-I am a Ph.D. candidate in Electrical Engineering and Computer Science at the [University of Kansas](https://ku.edu), advised by Professor [Heechul Yun](https://www.ittc.ku.edu/~heechul/).
+I am a Ph.D. candidate in EECS at the [University of Kansas](https://ku.edu), advised by Professor [Heechul Yun](https://www.ittc.ku.edu/~heechul/).
 
 My research focuses on the security, efficiency, predictability, and scalability of computer architectures and systems.
 
