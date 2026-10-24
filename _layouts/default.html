@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <style>
+    body {
+      margin: 0;
+      color: #222;
+      background: #fff;
+      font: 16px/1.55 Arial, Helvetica, sans-serif;
+    }
+
+    .page {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1.25rem;
+    }
+
+    .site-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 1rem;
+    }
+
+    .profile-photo {
+      width: 96px;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+
+    h2 {
+      margin: 1.5rem 0 0.4rem;
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0.5rem 0;
+    }
+
+    a,
+    .earlier-news summary {
+      color: #0645ad;
+    }
+
+    nav {
+      margin: 0.35rem 0 1rem;
+    }
+
+    nav a {
+      margin-right: 0.5rem;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid #aaa;
+      margin: 1rem 0 1.4rem;
+    }
+
+    ul {
+      margin: 0.35rem 0 1rem;
+      padding-left: 1.35rem;
+    }
+
+    li {
+      margin: 0.2rem 0;
+    }
+
+    .news-list > .earlier-news {
+      list-style: none;
+      margin-left: -1.35rem;
+    }
+
+    .earlier-news summary {
+      cursor: pointer;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 0 0.8rem 0.35rem 0;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 600px) {
+      .page {
+        margin: 1.25rem auto;
+      }
+
+      .profile-photo {
+        width: 72px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <img class="profile-photo" src="{{ '/meAmin.jpg' | relative_url }}" alt="Profile photo of Amin MamandiPoor">
+      <div>
+        <h1>{{ site.title }}</h1>
+        <p>aminm [at] ku [dot] edu</p>
+        <nav aria-label="Page sections">
+          <a href="#about">About</a> |
+          <a href="#publications">Publications</a> |
+          <a href="#news">News</a> |
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <hr>
+    <main>{{ content }}</main>
+  </div>
+</body>
+</html>
