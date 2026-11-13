@@ -1,0 +1,260 @@
+[
+  {
+    "name": "23rd brewery",
+    "src": "/assets/photos/23rd-brewery.webp",
+    "thumb": "/assets/photos/23rd-brewery-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "4july",
+    "src": "/assets/photos/4july.mp4",
+    "thumb": "/assets/photos/4july-thumb.webp",
+    "video": true
+  },
+  {
+    "name": "Alex",
+    "src": "/assets/photos/alex.webp",
+    "thumb": "/assets/photos/alex-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Bean",
+    "src": "/assets/photos/bean.webp",
+    "thumb": "/assets/photos/bean-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Bob",
+    "src": "/assets/photos/bob.webp",
+    "thumb": "/assets/photos/bob-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Cali",
+    "src": "/assets/photos/cali.webp",
+    "thumb": "/assets/photos/cali-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Camp",
+    "src": "/assets/photos/camp.webp",
+    "thumb": "/assets/photos/camp-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Chicago",
+    "src": "/assets/photos/chicago.webp",
+    "thumb": "/assets/photos/chicago-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Concert",
+    "src": "/assets/photos/concert.webp",
+    "thumb": "/assets/photos/concert-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Cruz",
+    "src": "/assets/photos/cruz.webp",
+    "thumb": "/assets/photos/cruz-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Diego",
+    "src": "/assets/photos/diego.webp",
+    "thumb": "/assets/photos/diego-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Dole",
+    "src": "/assets/photos/dole.webp",
+    "thumb": "/assets/photos/dole-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Fidgets",
+    "src": "/assets/photos/fidgets.webp",
+    "thumb": "/assets/photos/fidgets-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Food",
+    "src": "/assets/photos/food.webp",
+    "thumb": "/assets/photos/food-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Golden",
+    "src": "/assets/photos/golden.webp",
+    "thumb": "/assets/photos/golden-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Half moon",
+    "src": "/assets/photos/half-moon.webp",
+    "thumb": "/assets/photos/half-moon-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "History",
+    "src": "/assets/photos/history.webp",
+    "thumb": "/assets/photos/history-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Huston",
+    "src": "/assets/photos/huston.webp",
+    "thumb": "/assets/photos/huston-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Kansas",
+    "src": "/assets/photos/kansas.webp",
+    "thumb": "/assets/photos/kansas-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Ku",
+    "src": "/assets/photos/ku.webp",
+    "thumb": "/assets/photos/ku-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Mas",
+    "src": "/assets/photos/mas.webp",
+    "thumb": "/assets/photos/mas-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Moore",
+    "src": "/assets/photos/moore.webp",
+    "thumb": "/assets/photos/moore-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Msgzk birthday",
+    "src": "/assets/photos/msgzk-birthday.webp",
+    "thumb": "/assets/photos/msgzk-birthday-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Niagra",
+    "src": "/assets/photos/niagra.webp",
+    "thumb": "/assets/photos/niagra-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Nichols hall 2",
+    "src": "/assets/photos/nichols-hall-2.webp",
+    "thumb": "/assets/photos/nichols-hall-2-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Nichols hall",
+    "src": "/assets/photos/nichols-hall.webp",
+    "thumb": "/assets/photos/nichols-hall-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Ny",
+    "src": "/assets/photos/ny.webp",
+    "thumb": "/assets/photos/ny-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Ozark",
+    "src": "/assets/photos/ozark.webp",
+    "thumb": "/assets/photos/ozark-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Party",
+    "src": "/assets/photos/party.webp",
+    "thumb": "/assets/photos/party-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Princton",
+    "src": "/assets/photos/princton.webp",
+    "thumb": "/assets/photos/princton-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Red wood",
+    "src": "/assets/photos/red-wood.webp",
+    "thumb": "/assets/photos/red-wood-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Road trip",
+    "src": "/assets/photos/road-trip.webp",
+    "thumb": "/assets/photos/road-trip-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Shenandoah",
+    "src": "/assets/photos/shenandoah.webp",
+    "thumb": "/assets/photos/shenandoah-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Snow",
+    "src": "/assets/photos/snow.webp",
+    "thumb": "/assets/photos/snow-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Stanford",
+    "src": "/assets/photos/stanford.webp",
+    "thumb": "/assets/photos/stanford-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Tahoe 2",
+    "src": "/assets/photos/tahoe-2.webp",
+    "thumb": "/assets/photos/tahoe-2-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Tahoe",
+    "src": "/assets/photos/tahoe.webp",
+    "thumb": "/assets/photos/tahoe-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Tank7",
+    "src": "/assets/photos/tank7.webp",
+    "thumb": "/assets/photos/tank7-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Topeka",
+    "src": "/assets/photos/topeka.webp",
+    "thumb": "/assets/photos/topeka-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Van",
+    "src": "/assets/photos/van.webp",
+    "thumb": "/assets/photos/van-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Wells overlook park",
+    "src": "/assets/photos/wells-overlook-park.webp",
+    "thumb": "/assets/photos/wells-overlook-park-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "West campus",
+    "src": "/assets/photos/west-campus.webp",
+    "thumb": "/assets/photos/west-campus-thumb.webp",
+    "video": false
+  },
+  {
+    "name": "Yalda",
+    "src": "/assets/photos/yalda.webp",
+    "thumb": "/assets/photos/yalda-thumb.webp",
+    "video": false
+  }
+]

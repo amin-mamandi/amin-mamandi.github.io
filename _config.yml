@@ -1,2 +1,7 @@
 title: Amin Mamandipoor
 url: "https://amin-mamandi.github.io"
+
+exclude:
+  - gallery
+  - scripts
+  - vendor

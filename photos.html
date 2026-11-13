@@ -1,0 +1,41 @@
+---
+layout: null
+permalink: /photos/
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photos · {{ site.title }}</title>
+  <meta name="description" content="A collection of photographs by Amin Mamandipoor.">
+  <link rel="stylesheet" href="{{ '/assets/photos.css' | relative_url }}">
+  {% if jekyll.environment == 'production' %}
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="985feaef-2d36-45c6-b32c-5572c63eee83"></script>
+  {% endif %}
+  <script defer src="{{ '/assets/photos.js' | relative_url }}"></script>
+</head>
+<body>
+  <header class="gallery-header">
+    <a class="back-link" href="{{ '/' | relative_url }}"><span aria-hidden="true">‹</span> {{ site.title }}</a>
+  </header>
+  <main>
+    <div class="photo-grid" aria-label="Photo library">
+    {% for photo in site.data.gallery %}
+      <a class="photo" href="{{ photo.src | relative_url }}" data-video="{{ photo.video }}" data-name="{{ photo.name | escape }}" aria-label="Open {{ photo.name | escape }}{% if photo.video %} video{% endif %}">
+        <img src="{{ photo.thumb | relative_url }}" alt="{{ photo.name | escape }}" loading="{% if forloop.index <= 12 %}eager{% else %}lazy{% endif %}" decoding="async">
+        {% if photo.video %}<span class="video-badge" aria-hidden="true">▶ Video</span>{% endif %}
+      </a>
+    {% endfor %}
+    </div>
+    <p class="library-footer">{{ site.data.gallery | size }} moments · Through my lens</p>
+  </main>
+  <dialog class="viewer" aria-label="Photo viewer">
+    <div class="viewer-toolbar"><div><span id="photo-name"></span><span id="photo-position"></span></div><button class="icon-button close" aria-label="Close viewer">✕</button></div>
+    <div class="stage"></div>
+    <button class="icon-button previous" aria-label="Previous photo">‹</button>
+    <button class="icon-button next" aria-label="Next photo">›</button>
+    <p class="viewer-hint">Swipe or use arrow keys to explore</p>
+  </dialog>
+</body>
+</html>
