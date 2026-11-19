@@ -24,7 +24,7 @@ My research focuses on the security, efficiency, predictability, and scalability
 ## News
 
 <ul class="news-list">
-  <li><strong>November 2026.</strong> AMD published a <a href="https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7065.html">security bulletin</a> acknowledging our research.</li>
+  <li><strong>November 2026.</strong> AMD officially acknowledged our research in a <a href="https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7065.html">security bulletin</a>.</li>
   <li><strong>May 2026.</strong> Joined <a href="https://clockwork.io">Clockwork</a> for a summer internship.</li>
   <li><strong>May 2026.</strong> Received the Best Student Paper Award at <a href="https://2026.rtas.org/best-papers/">RTAS 2026</a>.</li>
   <li><strong>March 2026.</strong> Served as an artifact evaluator for <a href="https://ispass.org/ispass2026/">ISPASS 2026</a>.</li>
